@@ -15,13 +15,42 @@
 
 <br>
 
-*__Documentation__ under construction ...*  🚧
+---
+
+## Credits
+
+I like to thank the following project contributors:
+
+* [Peggy Dyar](https://pixabay.com/users/4Me2Design-3106045/)
+* [Maren Deepwell](https://marendeepwell.com/)
+* [Martin Hawksey](https://mashe.hawksey.info/)
+* [Amit Agarwal](https://www.labnol.org/)
+* [Ben Collins](https://www.benlcollins.com/)
+* [Alice Keeler](https://alicekeeler.com/)
+* [Sourabh Choraria](https://twitter.com/schoraria911)
+* [Alicia Williams](https://twitter.com/presactlyalicia)
+* [Stéphane Giron](https://twitter.com/st3phcloud)
+* [Pablo Felip](https://twitter.com/pfelipm)
+* [Steve Webster](https://www.swgapps.com/)
+* [Anu Srivastava](https://github.com/asrivas)
+* [Bruce McPherson](https://ramblings.mcpher.com/)
+* [Tony Vincent](https://learninginhand.com/)
+* [Jake Miller](https://twitter.com/jakemillertech)
+* [Holly Clark](https://twitter.com/hollyclarkedu)
+* [Wanda Terral](https://twitter.com/wterral)
+* [Alex Ivanov](https://github.com/contributorpw)
+* [Charles Maxson](https://twitter.com/chasmaxson)
+* [Yagisanatode](https://twitter.com/lifeofspy)
+* [AppsScriptInfo](https://pulse.appsscript.info/)
+* [Google For Education](https://twitter.com/googleforedu)
+* [Google Sheets](https://www.google.com/sheets/about/)
+* [Apps Script](https://developers.google.com/apps-script/overview)
+* [Google Chat](https://support.google.com/chat/answer/7653601)
 
 
-<br>
  
  
- ---
+---
 
 ## License
 
