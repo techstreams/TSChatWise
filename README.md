@@ -39,6 +39,7 @@ I like to thank the following project contributors:
 * [Jake Miller](https://twitter.com/jakemillertech)
 * [Holly Clark](https://twitter.com/hollyclarkedu)
 * [Wanda Terral](https://twitter.com/wterral)
+* [Laura Tilton](https://twitter.com/tiltondata)
 * [Alex Ivanov](https://github.com/contributorpw)
 * [Kanshi Tanaike](https://github.com/tanaikech)
 * [Charles Maxson](https://twitter.com/chasmaxson)
