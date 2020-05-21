@@ -34,6 +34,7 @@ I like to thank the following project contributors:
 * [Steve Webster](https://www.swgapps.com/)
 * [Anu Srivastava](https://github.com/asrivas)
 * [Bruce McPherson](https://ramblings.mcpher.com/)
+* [Luke Craig](https://twitter.com/teacher_luke_uk)
 * [Tony Vincent](https://learninginhand.com/)
 * [Jake Miller](https://twitter.com/jakemillertech)
 * [Holly Clark](https://twitter.com/hollyclarkedu)
