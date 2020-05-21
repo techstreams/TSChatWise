@@ -39,6 +39,7 @@ I like to thank the following project contributors:
 * [Holly Clark](https://twitter.com/hollyclarkedu)
 * [Wanda Terral](https://twitter.com/wterral)
 * [Alex Ivanov](https://github.com/contributorpw)
+* [Kanshi Tanaike](https://github.com/tanaikech)
 * [Charles Maxson](https://twitter.com/chasmaxson)
 * [Yagisanatode](https://twitter.com/lifeofspy)
 * [AppsScriptInfo](https://pulse.appsscript.info/)
