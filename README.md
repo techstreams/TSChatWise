@@ -17,6 +17,15 @@
 
 ---
 
+## Getting Started
+
+* [TSChatWise Overview](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
+* 🚧
+
+<br>
+
+---
+
 ## Credits
 
 I like to thank the following project contributors:
