@@ -66,7 +66,7 @@ function postLessons() {
             };
         let date = Utilities.formatDate(new Date(), ss.getSpreadsheetTimeZone(), DATE_FORMAT);
         config.roomurls.forEach(room => UrlFetchApp.fetch(room, options));  // Post lesson to chat room(s)       
-        ss.getSheetByName(LESSON_SHEET ).getRange(lesson.row,1,1,2).setValues([[true,date]]); // Update lesson in LESSON_SHEET 
+        ss.getSheetByName(LESSON_SHEET).getRange(lesson.row,1,1,2).setValues([[true,date]]); // Update lesson in LESSON_SHEET 
       }
       if (lessons.length === 0) {
         stopTrigger('postLessons');  // Delete timed trigger if all lessons have been posted
@@ -132,7 +132,7 @@ function getContent(lesson) {
  * @return {<Object>} array of lesson objects from the TSChatWise LESSON_SHEET  (with column titles row removed)
  */
 function getLessons(ss) {
-  const data = ss.getSheetByName(LESSON_SHEET );
+  const data = ss.getSheetByName(LESSON_SHEET);
   const lessons = data.getDataRange().getValues().map((row,index) => {
     return {row:index+1,posted:row[0],name:row[2],description:row[3],link:row[4],image:row[5]};
   });
