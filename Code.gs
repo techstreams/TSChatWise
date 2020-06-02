@@ -146,7 +146,7 @@ function getLessons(ss) {
  * @param {<string>} emails - email addresses
  */
 function sendEmail(ss,emails) {
-  let email = `<a href="${ss.getUrl()}">${ss.getName()} </a> has completed!`,
+  let email = `<a href="${ss.getUrl()}">${ss.getName()}</a> has completed!`,
       subject = `${ss.getName()} has completed!`;
   MailApp.sendEmail(emails.join(','),subject,'',{htmlBody: email});
 }
