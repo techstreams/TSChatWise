@@ -24,16 +24,20 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 
 * Open the __TSChatWise Google Sheet__ copied to your Google Drive during [Installation](Install.md).
 * Navigate to the __Configation__ sheet.
-
+* 🚧
 
 
 ---
 
 ## Step 3: Schedule Lessons
 
+* 🚧
+
 ---
 
-## Test It Out
+## Step 4: Test It Out
+
+* 🚧
 
 ---
 
