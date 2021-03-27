@@ -35,8 +35,7 @@ const EMAIL_COLUMN = 5; // 📥 CONFIG_SHEET column which contains the 'Notify B
                         // (column numbering starts at 1)
 
 const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted lessons on LESSON_SHEET
-                                       // See this site for more information 
-                                       // https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+                                       // @See https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
 
 
 // TSChatWise Chat Message Configuration
