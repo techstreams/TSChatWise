@@ -26,7 +26,8 @@
 
 ## Getting Started
 
-* [TSChatWise Overview](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
+* [Blog Post](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
+* [Overview](docs/About.md)
 * 🚧
 
 <br>
