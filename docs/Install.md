@@ -19,7 +19,7 @@ To install TSChatWise follow these instructions:
 * From within the new sheet, select the **Tools > Script editor** menu 
 * Delete the code in `Code.gs` from the script editor
 * Click on the `Untitled project` project name, and rename to `TSChatWise`
-* Copy and paste the [code](Code.gs) into the script editor
+* Copy and paste the [code](../Code.gs) into the script editor
 * Select the **Save** menu icon
 * Close the Script editor window
 * Reload the Form
@@ -31,7 +31,7 @@ To install TSChatWise follow these instructions:
 * Open existing TSChatWise enabled Google Sheet
 * From within the sheet, select the **Tools > Script editor** menu 
 * Delete the code in `Code.gs` from the script editor
-* Copy and paste the [code](Code.gs) into the script editor
+* Copy and paste the [code](../Code.gs) into the script editor
 * Select the **Save** menu icon
 * Select the **Clock Triggers** icon on the left
 * Delete any existing project triggers *(click the __More > Delete trigger__ menu to the right of each trigger to delete)*
