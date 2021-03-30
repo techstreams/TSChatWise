@@ -33,6 +33,7 @@ To install TSChatWise follow these instructions:
 * Delete the code in `Code.gs` from the script editor
 * Copy and paste the [code](../Code.gs) into the script editor
 * Select the **Save** menu icon
+* Select the **Project Settings (gear icon)** and check **Enable Chrome V8 runtime** *(if V8 is not already enabled)*
 * Select the **Clock Triggers** icon on the left
 * Delete any existing project triggers *(click the __More > Delete trigger__ menu to the right of each trigger to delete)*
 * Close the Project Triggers window
