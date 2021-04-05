@@ -118,7 +118,7 @@ function getContent(lesson) {
   const image = {"image":{"imageUrl":lesson.image}};
   const buttons = {"buttons":[{"textButton": {"text":LESSON_BUTTON_TEXT,
                                 "onClick":{"openLink":{"url":lesson.link}}}}]};
-  let text = {"textParagraph":{"text": Utilities.formatString('<b>%s</b><br><br>%s<br>', lesson.name, lesson.description)}};
+  let text;
   if (lesson.type) {
     text = {"textParagraph":{"text": Utilities.formatString('<b>%s</b><br><br>%s<br>', lesson.name, lesson.description)}};
     widgets.push(text);
@@ -130,7 +130,11 @@ function getContent(lesson) {
     }
     return {"cards":[{"sections":[{"widgets": widgets}]}]};
   } else {
-    return {"text":"*" + lesson.name + "*\n\n" + lesson.description};
+    text = "*" + lesson.name + "*\n\n" + lesson.description;
+    if (lesson.link) {
+      text += " \n" + lesson.link;
+    }
+    return {"text":text};
   }
 }
 
@@ -142,8 +146,8 @@ function getContent(lesson) {
 function getLessons(ss) {
   const data = ss.getSheetByName(LESSON_SHEET);
   const lessons = data.getDataRange().getValues().map((row,index) => {
-    return {row:index+1,posted:row[0],name:row[2],description:row[3],
-            type:row[4],link:row[5],image:row[6]};
+    return {row:index+1,posted:row[0],type:row[2],name:row[3],
+            description:row[4],link:row[5],image:row[6]};
   });
   lessons.shift(); // Shift off column titles row
   return lessons.filter(row => !row.posted);
