@@ -80,9 +80,6 @@ const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message butto
 * [Google Sheets](https://www.google.com/sheets/about/)
 * [Apps Script](https://developers.google.com/apps-script/overview)
 * [Google Chat](https://support.google.com/chat/answer/7653601)
-
-
- 
  
 ---
 
