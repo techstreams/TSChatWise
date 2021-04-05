@@ -35,7 +35,8 @@ const EMAIL_COLUMN = 5; // 📥 CONFIG_SHEET column which contains the 'Notify B
                         // (column numbering starts at 1)
 
 const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted lessons on LESSON_SHEET
-                                       // @See https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+                                       // See this site for more information 
+                                       // https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
 
 
 // TSChatWise Chat Message Configuration
@@ -121,7 +122,9 @@ function getContent(lesson) {
   if (lesson.image && lesson.image !== '') {
     widgets.push(image);
   }
-  widgets.push(buttons);
+  if (lesson.link && lesson.link !== '') {
+    widgets.push(buttons);
+  }
   return {"cards":[{"sections":[{"widgets": widgets}]}]}
 }
 
