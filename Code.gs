@@ -44,6 +44,55 @@ const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted less
 const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
 
 
+
+
+/**
+ * This function displays a spreadsheet menu
+ */
+function onOpen() {
+   SpreadsheetApp.getUi().createMenu('TSChatWise')
+     .addItem('Test TSChatWise', 'testBot')
+     .addSeparator()
+     .addItem('About TSChatWise', 'showAbout')
+     .addToUi()
+
+}
+
+/** 
+ * This function displays the about dialog
+ */
+function showAbout() {
+   var template = HtmlService.createTemplateFromFile('about');
+   SpreadsheetApp.getUi().showModelessDialog(template.evaluate().setHeight(400), ' ');
+}
+
+
+/**
+ * This function tests the posting to all configured chat rooms
+ */
+function testBot() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  try {
+    let payload = {"text":"*Testing TSChatWise*"};  // Test message
+    let config = getConfig(ss); // Get TSChatWise configuration from CONFIG_SHEET
+    let options = {
+      'method' : 'post',
+      'contentType': 'application/json; charset=UTF-8',
+      'payload' : JSON.stringify(payload)
+    };
+    if (config.roomurls) {
+        // Post test to chat room(s)
+        config.roomurls.forEach(room => UrlFetchApp.fetch(room, options));  
+    } else {
+      throw new Error('TSChatWise: No Chat Rooms Configured.');
+    }
+  } catch(err) {
+    console.log(`TSChatWise: The following error occurred - "${err.message}"`);    
+  }
+
+}
+
+
 /* 
  * This function posts lessons from the TSChatWise LESSON_SHEET 
  * to the Google Chat room(s) specified on the CONFIG_SHEET 
