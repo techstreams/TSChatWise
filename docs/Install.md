@@ -52,7 +52,7 @@ To install **TSChatWise**:
  
 **4. Add URL to TSChatWise 'Config' Sheet**
 
-* Under **Chat Room Name** enter the name of the bot given in **Step 2** above
+* Under **Chat Room Name** enter the name of the Chat room from **Step 1** above
 * Under **Chat Room URL** enter the URL copied in **Step 3** above
 
 ![](img/TSChatWiseInstall1.png)
