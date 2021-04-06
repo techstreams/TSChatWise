@@ -68,10 +68,10 @@ To be notified when all lessons have been posted to all chat rooms:
 <br>
 
 **6. Test TSChatWise**
- 
-To test **TSChatWise**:
 
-*  Select **TSChatWise > Test TSChatWise** option from the Google Sheet menu
+*  Select **TSChatWise > Test TSChatWise** option from the Google Sheet menu.  *This will send a test message to each configured chat room.*
+
+*:point_right: The __first time__ the TSChatWise script is run it will __require authorization__.  Follow the Google prompts to authorize TSChatWise.*
 
 
 ![](img/TSChatWiseInstall2.png)
