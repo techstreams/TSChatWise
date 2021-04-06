@@ -62,13 +62,13 @@ Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspa
 
 * **[Searchable](https://support.google.com/chat/answer/7655805?hl=en#)**
 
-* [Deeply integrated](https://gsuite.google.com/products/chat/) with Google Workspace
+* **[Deeply integrated](https://gsuite.google.com/products/chat/) with Google Workspace**
 
-* *Mobile first (Android & iOS)*
+* **Mobile first _(Android & iOS)_**
 
-* Secure *(which Google Workspace Administrators love 😀)*
+* **Secure _(which Google Workspace Administrators love 😀)_**
 
-* [Open Source](../README.md#license)
+* **[Open Source](../README.md#license)**
 
 <br>
 
