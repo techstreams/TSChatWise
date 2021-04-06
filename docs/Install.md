@@ -67,6 +67,17 @@ To be notified when all lessons have been posted to all chat rooms:
 
 <br>
 
+**6. Test TSChatWise**
+ 
+To test **TSChatWise**:
+
+*  Select **TSChatWise > Test TSChatWise** option from the Google Sheet menu
+
+
+![](img/TSChatWiseInstall2.png)
+
+<br>
+
 ## Important Notes
 
 * Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
