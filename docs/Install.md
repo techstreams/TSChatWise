@@ -25,7 +25,7 @@ To install **TSChatWise**:
 
 ## Create Chat Room Webhook
 
-**Access the Chat Room Webhooks**
+**1. Access the Chat Room Webhooks**
 
 * Go to [Google Chat](https://chat.google.com)
 * Select the desired **Chat room** *(or create a new one)* from the left side of the screen
@@ -34,27 +34,36 @@ To install **TSChatWise**:
 
 <br>
 
-**Enter a Webhook Name**
+**2. Enter a Webhook Name**
 
 * Enter a webhook name **TSChatWise**
 * *(Optional) Enter an Avatar URL*
 * Click **Save**
 
-**Important:**
-
 *:point_right: Multiple chat bots can provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).  Be sure to use descriptive webhook names to disguish multiple bots.*
 
 <br>
 
-**Make a Copy of the URL**
+**3. Make a Copy of the URL**
 
 * Click the **Copy** button to make a copy of the webhook URL
 
 <br>
+ 
+**4. Add URL to TSChatWise 'Config' Sheet**
 
-**Add URL to TSChatWise 'Config' Sheet**
+* Under **Chat Room Name** enter the name of the bot given in **Step 2** above
+* Under **Chat Room URL** enter the URL copied in **Step 3** above
 
+![](img/TSChatWiseInstall1.png)
 
+**5. Configure Notifications When Lessons Complete**
+
+To be notified when all lessons have been posted to all chat rooms:
+
+* Check the box to the right of **Notify By Email When Complete**
+  * Check the box to the right of **Email Editors** for all TSChatWise Google Sheet editors & owner to be notified
+  * Check the box to the right of **Email Viewers** for all TSChatWise Google Sheet viewers to be notified
 
 
 ## Important Notes
