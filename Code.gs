@@ -119,6 +119,8 @@ function getContent(lesson) {
   const buttons = {"buttons":[{"textButton": {"text":LESSON_BUTTON_TEXT,
                                 "onClick":{"openLink":{"url":lesson.link}}}}]};
   let text;
+  // If lesson is card based, create a card lesson message
+  // else create a text lesson message
   if (lesson.type) {
     text = {"textParagraph":{"text": Utilities.formatString('<b>%s</b><br><br>%s<br>', lesson.name, lesson.description)}};
     widgets.push(text);
