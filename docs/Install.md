@@ -8,6 +8,33 @@
 
 ... 🚧
 
+---
+
+## Installation
+
+To install **TSChatWise**:
+
+> * *Login to [Google Drive](https://drive.google.com/).*
+> * *Access the __TSChatWise__ Google Sheets template.*
+> * *Click the __Use Template__ button. This will copy the sheet template to Google Drive.*
+
+---
+
+<br>
+
+
+## Create Chat Room Webhook
+
+**Access the Chat Room Webhooks**
+
+* Go to [Google Chat](https://chat.google.com)
+* Select the desired **Chat room** *(or create a new one)*
+* Select the **dropdown** for the room
+* Select **Configure webhooks**
+
+![](https://github.com/techstreams/TSFormBot/raw/master/img/step2.png)
+
+<br>
 
 ---
 
