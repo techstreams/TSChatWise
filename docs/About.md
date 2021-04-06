@@ -40,6 +40,7 @@ TSChatWise posts **lessons** *(specified in a Google Sheet)* to one or more **Go
 Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspace for Business](https://gsuite.google.com/solutions/) organization with [Google Chat enabled](https://support.google.com/a/answer/7651884?hl=en).
 
 :point_right: *Have questions about __Google Chat__?  See [Google Chat Help](https://support.google.com/chat/?hl=en#topic=7649316)*
+
 :point_right: *Having problems with __Google Chat__?  Check with your Google Workspace _Domain Administrator_*
 
 <br>
