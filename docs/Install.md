@@ -58,6 +58,12 @@ To install **TSChatWise**:
 
 <br>
 
+**Make a Copy of the URL**
+
+* Click the **Copy** button to make a copy of the webhook URL
+
+![](https://github.com/techstreams/TSFormBot/raw/master/img/step5.png)
+
 
 ## Important Notes
 
