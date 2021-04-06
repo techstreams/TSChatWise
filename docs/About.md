@@ -37,9 +37,10 @@ TSChatWise posts **lessons** *(specified in a Google Sheet)* to one or more **Go
 
 <br>
 
-Any [G Suite for Education](https://edu.google.com/) or [G Suite for Business](https://gsuite.google.com/solutions/) organization with [Google Chat enabled](https://support.google.com/a/answer/7651884?hl=en).
+Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspace for Business](https://gsuite.google.com/solutions/) organization with [Google Chat enabled](https://support.google.com/a/answer/7651884?hl=en).
 
 :point_right: *Have questions about __Google Chat__?  See [Google Chat Help](https://support.google.com/chat/?hl=en#topic=7649316)*
+:point_right: *Having problems with __Google Chat__?  Check with your Google Workspace _Domain Administrator_*
 
 <br>
 
@@ -60,11 +61,11 @@ Any [G Suite for Education](https://edu.google.com/) or [G Suite for Business](h
 
 * **[Searchable](https://support.google.com/chat/answer/7655805?hl=en#)**
 
-* [Deeply integrated](https://gsuite.google.com/products/chat/) with G Suite
+* [Deeply integrated](https://gsuite.google.com/products/chat/) with Google Workspace
 
 * *Mobile first (Android & iOS)*
 
-* Secure *(which G Suite Administrators love 😀)*
+* Secure *(which Google Workspace Administrators love 😀)*
 
 * [Open Source](../README.md#license)
 
@@ -108,8 +109,6 @@ Any [G Suite for Education](https://edu.google.com/) or [G Suite for Business](h
 ### 🚀 *...and the list goes on* 
 
 <br>
-
-*This tool is not intended to be a replacement for [Google Classroom](https://classroom.google.com/).*
 
 ---
 
