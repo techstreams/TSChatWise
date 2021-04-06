@@ -1,0 +1,49 @@
+<!-- 
+* Copyright Laura Taylor
+* (https://github.com/techstreams/TSDataTable)
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.0.19/dist/vuetify.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <style>[v-cloak] {display: none} p.ts-small {font-size: 9px;}</style>
+  </head>
+  <body>
+    <div id="app">
+      <v-app v-cloak>     
+          <v-card outlined raised class="mx-auto mb-4">       
+            <v-img
+                    class="white--text"
+                    height="220px"
+                    src="https://github.com/techstreams/TSChatWise/raw/docs/chalkboard.jpg">
+              <v-card-title class="align-end fill-height yellow--text">TSChatWise</v-card-title>
+            </v-img>            
+            <v-card-text>
+              <p class="text-center ts-small">Photo by <a href="https://pixabay.com/users/4Me2Design-3106045/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2629436" target="_blank">Peggy Dyar</a> on <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2629436" target="_blank">Pixabay</a></p>
+              <p class="text-center subtitle-2">Teaching and Learning Tool for Google Chat.</p>
+            </v-card-text>     
+            <v-divider></v-divider>
+            <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn text color="primary" href="https://github.com/techstreams/TSChatWise" target="_blank">Documentation</v-btn>
+                <v-btn text color="primary" href="https://www.tech-streams.com" target="_blank">Developer</v-btn>   
+                <v-spacer></v-spacer>
+            </v-card-actions>
+          </v-card>            
+          <v-footer app></v-footer>      
+      </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.0.19/dist/vuetify.js"></script>
+    <script>
+      new Vue({
+        el: '#app',
+        vuetify: new Vuetify()
+      });
+    </script>
+  </body>
+</html>
