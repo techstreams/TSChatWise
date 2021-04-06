@@ -58,6 +58,15 @@ To install **TSChatWise**:
 
 <br>
 
+
+## Important Notes
+
+* Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
+
+* A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
+
+* Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSFormBot does not work as expected.
+
 ---
 
 &nbsp;&nbsp; 👈 [About](About.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Getting Started](GettingStarted.md) 👉 &nbsp;&nbsp;
