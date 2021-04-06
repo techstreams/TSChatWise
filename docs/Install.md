@@ -36,6 +36,28 @@ To install **TSChatWise**:
 
 <br>
 
+**Add a Webhook**
+
+* Select **+ ADD WEBHOOK**
+
+![](https://github.com/techstreams/TSFormBot/raw/master/img/step3.png)
+
+<br>
+
+**Enter a Webhook Name**
+
+* Enter a webhook name **TSChatWise**
+* *(Optional) Enter an Avatar URL*
+* Click **Save**
+
+![](https://github.com/techstreams/TSFormBot/raw/master/img/step4.png)
+
+**Important:**
+
+*:point_right: Multiple chat bots can provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).  Be sure to use descriptive webhook names to disguish multiple bots.*
+
+<br>
+
 ---
 
 &nbsp;&nbsp; 👈 [About](About.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Getting Started](GettingStarted.md) 👉 &nbsp;&nbsp;
