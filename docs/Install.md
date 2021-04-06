@@ -28,19 +28,9 @@ To install **TSChatWise**:
 **Access the Chat Room Webhooks**
 
 * Go to [Google Chat](https://chat.google.com)
-* Select the desired **Chat room** *(or create a new one)*
-* Select the **dropdown** for the room
-* Select **Configure webhooks**
-
-![](https://github.com/techstreams/TSFormBot/raw/master/img/step2.png)
-
-<br>
-
-**Add a Webhook**
-
-* Select **+ ADD WEBHOOK**
-
-![](https://github.com/techstreams/TSFormBot/raw/master/img/step3.png)
+* Select the desired **Chat room** *(or create a new one)* from the left side of the screen
+* Select the **dropdown** for the room name at the top of the screen
+* Select **Manage webhooks**
 
 <br>
 
@@ -49,8 +39,6 @@ To install **TSChatWise**:
 * Enter a webhook name **TSChatWise**
 * *(Optional) Enter an Avatar URL*
 * Click **Save**
-
-![](https://github.com/techstreams/TSFormBot/raw/master/img/step4.png)
 
 **Important:**
 
@@ -62,7 +50,11 @@ To install **TSChatWise**:
 
 * Click the **Copy** button to make a copy of the webhook URL
 
-![](https://github.com/techstreams/TSFormBot/raw/master/img/step5.png)
+<br>
+
+**Add URL to TSChatWise 'Config' Sheet**
+
+
 
 
 ## Important Notes
