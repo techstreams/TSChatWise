@@ -8,34 +8,20 @@
 
 ---
 
-To learn more about **TSChatWise** and how it works, let's setup a demonstration! 😀 
+## Step 1: Configure Lessons
 
-## Step 1: Setup a Google Chat Room
-
-Follow the steps outlined in the [Google Chat Room - Create a room](https://support.google.com/chat/answer/7653861?hl=en&ref_topic=7649113) documentation to setup a Google Chat room. 
-
-👉 *TSChatWise can post the same lesson to __multiple__ Google Chat rooms.*
-
-👉 *[Google Chat must be enabled](https://support.google.com/a/answer/7651884?hl=en) in your domain to setup Google Chat.  Check with your G Suite Administrator if Google Chat is disabled.*
-
----
-
-## Step 2: Configure TSChatWise
-
-* Open the __TSChatWise Google Sheet__ copied to your Google Drive during [Installation](Install.md).
-* Navigate to the __Configation__ sheet.
 * 🚧
 
 
 ---
 
-## Step 3: Schedule Lessons
+## Step 2: Schedule Lessons
 
 * 🚧
 
 ---
 
-## Step 4: Test It Out
+## Step 3: Test It Out
 
 * 🚧
 

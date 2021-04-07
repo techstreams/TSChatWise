@@ -1,4 +1,4 @@
-# Install TSChatWise 
+# Install and Configure TSChatWise 
 
 ![](../chalkboard.jpg)
 
@@ -6,11 +6,9 @@
 
 <br>
 
-... 🚧
-
 ---
 
-## Installation
+## Step 1: Install TSChatWise
 
 To install **TSChatWise**:
 
@@ -22,10 +20,19 @@ To install **TSChatWise**:
 
 <br>
 
+## Step 2: Create Chat Room(s)
 
-## Create Chat Room Webhook
+Follow the steps outlined in the [Google Chat Room - Create a room](https://support.google.com/chat/answer/7653861?hl=en&ref_topic=7649113) documentation to setup a Google Chat room. 
 
-**1. Access the Chat Room Webhooks**
+👉 *TSChatWise can post the same lesson to __multiple__ Google Chat rooms.*
+
+👉 *[Google Chat must be enabled](https://support.google.com/a/answer/7651884?hl=en) in your domain to setup Google Chat.  Check with your G Suite Administrator if Google Chat is disabled.*
+
+<br>
+
+## Step 3: Create Chat Room Webhook
+
+**Access the Chat Room Webhooks**
 
 * Go to [Google Chat](https://chat.google.com)
 * Select the desired **Chat room** *(or create a new one)* from the left side of the screen
@@ -34,7 +41,7 @@ To install **TSChatWise**:
 
 <br>
 
-**2. Enter a Webhook Name**
+**Enter a Webhook Name**
 
 * Enter a webhook name **TSChatWise**
 * *(Optional) Enter an Avatar URL*
@@ -44,20 +51,27 @@ To install **TSChatWise**:
 
 <br>
 
-**3. Make a Copy of the URL**
+**Make a Copy of the URL**
 
 * Click the **Copy** button to make a copy of the webhook URL
 
 <br>
- 
-**4. Add URL to TSChatWise 'Config' Sheet**
 
-* Under **Chat Room Name** enter the name of the Chat room from **Step 1** above
+## Step 4: Configure TSChatWise
+
+**Open TSChatWise template**
+
+* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **Step 1** installation.
+* Navigate to the __Config__ sheet.
+ 
+**Add Chat Room URL to TSChatWise 'Config' Sheet**
+
+* Under **Chat Room Name** enter the name of the Chat room from **Step 3** above
 * Under **Chat Room URL** enter the URL copied in **Step 3** above
 
 ![](img/TSChatWiseInstall1.png)
 
-**5. Configure Notifications When Lessons Complete**
+**Configure Notifications When Lessons Complete**
 
 To be notified when all lessons have been posted to all chat rooms:
 
@@ -67,7 +81,7 @@ To be notified when all lessons have been posted to all chat rooms:
 
 <br>
 
-**6. Test TSChatWise**
+## Step 6: Test TSChatWise
 
 *  Select **TSChatWise > Test TSChatWise** option from the Google Sheet menu.  *This will send a test message to each configured chat room.*
 
