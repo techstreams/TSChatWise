@@ -50,7 +50,7 @@ To install **TSChatWise**:
 
 <br>
  
-**4. Add URL to TSChatWise 'Config' Sheet**
+**4. Add Chat Room URL to TSChatWise 'Config' Sheet**
 
 * Under **Chat Room Name** enter the name of the Chat room from **Step 1** above
 * Under **Chat Room URL** enter the URL copied in **Step 3** above
