@@ -1,4 +1,4 @@
-# Install TSChatWise 
+# Install and Configure TSChatWise 
 
 ![](../chalkboard.jpg)
 
