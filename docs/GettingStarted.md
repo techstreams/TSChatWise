@@ -34,6 +34,14 @@ To post a lessons to a Google Chat Room:
 4. (Optional) Enter a **Lesson Link** _(this will add a link to the message body for **Simple Message** format lessons or a clickable button link for **Card Messages)._
 5. (Optional) Enter a link to a public accessible image to be included in **Card Message** posts only.
 
+Posting a lesson as shown below
+
+![](img/TSChatWiseStart3.png)
+
+will produce this output in a Google Chat room.
+
+![](img/TSChatWiseStart2.png)
+
 * 🚧
 
 
