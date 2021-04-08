@@ -16,10 +16,23 @@ There are three sheets within the **TSChatWise** template.
 
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's turn our attention on how to configure the **Lessons** sheet.
 
+**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
+
+1. **Simple Messages** - plain text messages with simple formatting options *For more information see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).*
+2. **Card Messages** - more complex user interface card messages *For more information see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards).*
+
 
 ## Step 1: Configure Lessons
 
 ![](img/TSChatWiseStart1.png)
+
+To post a lessons to a Google Chat Room:
+
+1. For lessons to be posted as a **Card Message**, check the **Post as Card Message** box.
+2. Enter the **Lesson Name** *(this will be posted at the top of the message)*
+3. Enter the **Lesson Description** *(this will be posted as the body of the message)*
+4. (Optional) Enter a **Lesson Link** _(this will add a link to the message body for **Simple Message** format lessons or a clickable button link for **Card Messages)._
+5. (Optional) Enter a link to a public accessible image to be included in **Card Message** posts only.
 
 * 🚧
 
