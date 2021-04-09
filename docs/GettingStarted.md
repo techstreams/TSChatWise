@@ -28,7 +28,7 @@ Now let's look at how the **TSChatWise** lesson sheet is constructed.
 
 ![](img/TSChatWiseStart3.png)
 
-As show above, there are seven data colums representing each lesson to be posted to Goolge Chat Room(s).
+As show above, there are **seven** data colums representing each lesson to be posted to Google Chat Room(s).
 
 **1. Posted**
 
@@ -66,15 +66,14 @@ As show above, there are seven data colums representing each lesson to be posted
 
 
 
-To post a lessons to a Google Chat Room:
+**7. Lesson Image**
 
-5. (Optional) Enter a link to a public accessible image to be included in **Card Message** posts only.
+* Link to a public accessible image to be included with **Card** messages ONLY. 
+* This is a **optional field**.
 
-Posting a lesson as shown below
+<br>
 
-![](img/TSChatWiseStart3.png)
-
-will produce this output in a Google Chat room.
+Posting a **Simple** lesson as shown above will produce this output in a Google Chat room.
 
 ![](img/TSChatWiseStart2.png)
 
