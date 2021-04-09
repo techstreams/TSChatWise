@@ -16,15 +16,31 @@ There are three sheets within the **TSChatWise** template.
 
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's turn our attention on how to configure the **Lessons** sheet.
 
+
+## Step 1: Configure Lessons
+
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
 1. **Simple Messages** - plain text messages with simple formatting options *For more information see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).*
 2. **Card Messages** - more complex user interface card messages *For more information see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards).*
 
-
-## Step 1: Configure Lessons
+Now let's look at how the **TSChatWise** lesson sheet is constructed.
 
 ![](img/TSChatWiseStart1.png)
+
+As show above, there are seven data colums representing each lesson to be posted to Goolge Chat Room(s).
+
+**1. Posted**
+
+* Checkbox automatically checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
+* Uncheck to box to reschedule a lesson post.
+* Make sure there is an unchecked box before in this column before posting the lesson.  Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+
+**2. Posted On**
+
+* Date stamp automatically added when a lesson is posted to any Google Chat Room.
+
+
 
 To post a lessons to a Google Chat Room:
 
