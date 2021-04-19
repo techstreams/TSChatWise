@@ -29,7 +29,7 @@ Now let's look at how the **TSChatWise** lesson sheet is constructed.
 
 <br>
 
-As show above, there are **seven** data colums representing each lesson to be posted to Google Chat Room(s).
+As show above, there are **seven data columns** representing each lesson to be posted to Google Chat Room(s).
 
 **1. Posted**
 
