@@ -66,8 +66,8 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
  
 **Add Chat Room Webhook URL to TSChatWise 'Config' Sheet**
 
-* Under **Chat Room Name** enter the name of the Chat room from **Step 3** above.
-* Under **Chat Room URL** enter the URL copied in **Step 3** above.
+* Under **Chat Room Name** enter the name of the Chat room from **[Step 3](#step-3-create-chat-room-webhook)** above.
+* Under **Chat Room URL** enter the URL copied in **[Step 3](#step-3-create-chat-room-webhook)** above.
 
 ![](img/TSChatWiseInstall1.png)
 
