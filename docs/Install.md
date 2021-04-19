@@ -67,7 +67,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 **Add Chat Room Webhook URL to TSChatWise 'Config' Sheet**
 
 * Under **Chat Room Name** enter the name of the Chat room from **[Step 3](#step-3-create-chat-room-webhook)** above.
-* Under **Chat Room URL** enter the URL copied in **[Step 3](#step-3-create-chat-room-webhook)** above.
+* Under **Chat Room URL** enter the Webhook URL copied in **[Step 3](#step-3-create-chat-room-webhook)** above.
 
 ![](img/TSChatWiseInstall1.png)
 
@@ -76,8 +76,8 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 To be notified when all lessons have been posted to all chat rooms:
 
 * Check the box to the right of **Notify By Email When Complete**
-  * Check the box to the right of **Email Editors** for all TSChatWise Google Sheet editors & owner to be notified.
-  * Check the box to the right of **Email Viewers** for all TSChatWise Google Sheet viewers to be notified.
+  * Check the box to the right of **Email Sheet Editors** for all TSChatWise Google Sheet editors & owner to be notified.
+  * Check the box to the right of **Email Sheet Viewers** for all TSChatWise Google Sheet viewers to be notified.
 
 <br>
 
