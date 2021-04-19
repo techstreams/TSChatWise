@@ -61,13 +61,13 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 
 **Open TSChatWise template**
 
-* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** installation.
+* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** above.
 * Navigate to the __Config__ sheet.
  
-**Add Chat Room URL to TSChatWise 'Config' Sheet**
+**Add Chat Room Webhook URL to TSChatWise 'Config' Sheet**
 
-* Under **Chat Room Name** enter the name of the Chat room from **Step 3** above
-* Under **Chat Room URL** enter the URL copied in **Step 3** above
+* Under **Chat Room Name** enter the name of the Chat room from **Step 3** above.
+* Under **Chat Room URL** enter the URL copied in **Step 3** above.
 
 ![](img/TSChatWiseInstall1.png)
 
@@ -76,8 +76,8 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 To be notified when all lessons have been posted to all chat rooms:
 
 * Check the box to the right of **Notify By Email When Complete**
-  * Check the box to the right of **Email Editors** for all TSChatWise Google Sheet editors & owner to be notified
-  * Check the box to the right of **Email Viewers** for all TSChatWise Google Sheet viewers to be notified
+  * Check the box to the right of **Email Editors** for all TSChatWise Google Sheet editors & owner to be notified.
+  * Check the box to the right of **Email Viewers** for all TSChatWise Google Sheet viewers to be notified.
 
 <br>
 
