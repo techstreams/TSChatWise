@@ -104,6 +104,24 @@ To be notified when all lessons have been posted to all chat rooms:
 
 ## Advanced TSChatWise Configuration Options
 
+TSChatWise provides some advanced configuration options for experienced users.  
+
+<br>
+
+|  | NAME | TYPE | DESCRIPTION |
+| :-------: | :----------------- | :----------------- | :----------------- |
+| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
+| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
+| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
+| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
+| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
+| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
+
+<br>
+
+
+To change any of the following 
+
 <br>
 
 ```javascript
@@ -131,16 +149,6 @@ const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message butto
 
 <br>
 
-|  | NAME | TYPE | DESCRIPTION |
-| :-------: | :----------------- | :----------------- | :----------------- |
-| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
-| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
-| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
-| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
-| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
-| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
-
-<br>
 
 ---
 
