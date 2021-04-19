@@ -35,7 +35,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 **Access the Chat Room Webhooks**
 
 * Go to [Google Chat](https://chat.google.com)
-* Select the desired **Chat room** *(or create a new one)* from the left side of the screen
+* Select the desired **Chat room** from the left side of the screen
 * Select the **dropdown** for the room name at the top of the screen
 * Select **Manage webhooks**
 
