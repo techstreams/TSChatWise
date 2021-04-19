@@ -29,6 +29,7 @@ Now let's look at how the **TSChatWise** lesson sheet is constructed.
 
 <br>
 
+
 As show above, there are **seven data columns** representing each lesson to be posted to Google Chat Room(s).
 
 **1. Posted**
@@ -40,6 +41,7 @@ A checkbox automatically checked by **TSChatWise** when a lesson is posted to an
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
 👉 Uncheck box to schedule/reschedule a lesson post. 
+
 
 **2. Posted On**
 
