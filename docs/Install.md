@@ -104,7 +104,7 @@ To be notified when all lessons have been posted to all chat rooms:
 
 ## Advanced TSChatWise Configuration Options
 
-TSChatWise provides some advanced configuration options for experienced users.  
+TSChatWise provides some advanced configuration options.  The following tables outlines the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
 
 <br>
 
@@ -120,7 +120,15 @@ TSChatWise provides some advanced configuration options for experienced users.
 <br>
 
 
-To change any of the following 
+To change any of the advanced configuration options:
+
+* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** above.
+* Find the appropriate configuration option shown below in the __Code.gs__ file.
+* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** above
+
+
+*:point_right: Use __caution__ when making changes to the source code.*
+
 
 <br>
 
