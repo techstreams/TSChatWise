@@ -35,7 +35,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 **Access the Chat Room Webhooks**
 
 * Go to [Google Chat](https://chat.google.com)
-* Select the desired **Chat room** *(or create a new one)* from the left side of the screen
+* Select the desired **Chat room** from the left side of the screen
 * Select the **dropdown** for the room name at the top of the screen
 * Select **Manage webhooks**
 
@@ -61,13 +61,13 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 
 **Open TSChatWise template**
 
-* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **Step 1** installation.
+* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** above.
 * Navigate to the __Config__ sheet.
  
-**Add Chat Room URL to TSChatWise 'Config' Sheet**
+**Add Chat Room Webhook URL to TSChatWise 'Config' Sheet**
 
-* Under **Chat Room Name** enter the name of the Chat room from **Step 3** above
-* Under **Chat Room URL** enter the URL copied in **Step 3** above
+* Under **Chat Room Name** enter the name of the Chat room from **[Step 3](#step-3-create-chat-room-webhook)** above.
+* Under **Chat Room URL** enter the Webhook URL copied in **[Step 3](#step-3-create-chat-room-webhook)** above.
 
 ![](img/TSChatWiseInstall1.png)
 
@@ -76,8 +76,8 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 To be notified when all lessons have been posted to all chat rooms:
 
 * Check the box to the right of **Notify By Email When Complete**
-  * Check the box to the right of **Email Editors** for all TSChatWise Google Sheet editors & owner to be notified
-  * Check the box to the right of **Email Viewers** for all TSChatWise Google Sheet viewers to be notified
+  * Check the box to the right of **Email Sheet Editors** for all TSChatWise Google Sheet editors & owner to be notified.
+  * Check the box to the right of **Email Sheet Viewers** for all TSChatWise Google Sheet viewers to be notified.
 
 <br>
 
@@ -99,6 +99,64 @@ To be notified when all lessons have been posted to all chat rooms:
 * A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
 
 * Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSFormBot does not work as expected.
+
+---
+
+## Advanced TSChatWise Configuration Options
+
+TSChatWise provides some advanced configuration options.  The following tables outlines the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
+
+<br>
+
+|  | NAME | TYPE | DESCRIPTION |
+| :-------: | :----------------- | :----------------- | :----------------- |
+| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
+| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
+| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
+| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
+| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
+| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
+
+<br>
+
+
+To change any of the advanced configuration options:
+
+* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+* Find the configuration option(s) shown below in the __Code.gs__ file and make the appropriate change(s).
+* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+
+
+*:point_right: Use __caution__ when making changes to the source code.*
+
+
+<br>
+
+```javascript
+// TSChatWise Configuration
+
+const CONFIG_SHEET = 'Config'; // 🧰 Name of TSChatWise 'configuration' sheet
+
+const LESSON_SHEET = 'Lessons'; // ✏️ Name of TSChatWise 'lessons' sheet
+
+const ROOM_URL_COLUMN = 2;  // 🔗 CONFIG_SHEET column which contains the Chat Room URLs 
+                            // (column numbering starts at 1)
+                            
+const EMAIL_COLUMN = 5; // 📥 CONFIG_SHEET column which contains the 'Notify By Email When Complete' checkboxes 
+                        // (column numbering starts at 1)
+
+const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted lessons on LESSON_SHEET 
+                                        // See this site for more information 
+                                        // https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+
+
+// TSChatWise Chat Message Configuration
+
+const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
+```
+
+<br>
+
 
 ---
 
