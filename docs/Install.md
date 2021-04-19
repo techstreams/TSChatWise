@@ -61,7 +61,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 
 **Open TSChatWise template**
 
-* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **Step 1** installation.
+* Open the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)** installation.
 * Navigate to the __Config__ sheet.
  
 **Add Chat Room URL to TSChatWise 'Config' Sheet**
