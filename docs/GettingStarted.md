@@ -38,8 +38,11 @@ A checkbox automatically checked by **TSChatWise** when a lesson is posted to an
 
 1.Add a checkbox for each new lesson
 
+
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
+
 👉 Uncheck box to schedule/reschedule a lesson post. 
 
 
@@ -59,6 +62,7 @@ Indicates whether the lesson is to be posted as a **[Simple Messages](https://de
 1.Check the box to send as a **card message**.
 
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+
 👉 Make sure there is an checkox in this column before posting the lesson.  
 
 
@@ -74,6 +78,7 @@ Name of lesson to be posted with lesson.
 Lesson content to be posted.  
 
 👉  This is a **required field**.
+
 👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See advanced formatting section for more.
 
 
@@ -82,6 +87,7 @@ Lesson content to be posted.
 Link to additional lesson content to be included with the posted lesson.  
 
 👉 This is a **optional field**.
+
 👉 Link will be added to the end of the message body for **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** messages or as a clickable button link at the end of **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages.
 
 
