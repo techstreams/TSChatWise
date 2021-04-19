@@ -25,7 +25,7 @@ TSChatWise is a **[Google Sheets](https://www.google.com/sheets/about/)** and **
 
 <br>
 
-TSChatWise posts **lessons** *(specified in a Google Sheet)* to one or more **Google Chat Rooms** on a timed basis specified by the [Google Sheet](https://www.google.com/sheets/about/) owner.  
+TSChatWise posts **lessons** *(specified in a Google Sheet)* to one or more **Google Chat Rooms** on a timed intervals specified by the [Google Sheet](https://www.google.com/sheets/about/) owner.  
 
 Lessons can be posted as **[simple text messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[card messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  Both types of messages may contain special formatting to highlight portions of the message content.
 
