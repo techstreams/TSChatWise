@@ -33,48 +33,66 @@ As show above, there are **seven** data colums representing each lesson to be po
 
 **1. Posted**
 
-* Checkbox automatically checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
-* Uncheck to box to reschedule a lesson post.
-* Make sure there is an unchecked box before in this column before posting the lesson.  Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+A checkbox automatically checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
+
+1.Add a checkbox for each new lesson
+
+👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
+👉 Uncheck box to schedule/reschedule a lesson post. 
 
 **2. Posted On**
 
-* Date stamp automatically added when a lesson is posted to any Google Chat Room.
+Date stamp automatically added when a lesson is posted to any Google Chat Room.
+
+👉 Do not modify this field.
+
 
 **3. Post as Card Message**
 
-* Indicates whether the lesson is to be posted as a **simple message** or **card message**.  Check the box to send as a **card message**.
-* Make sure there is an checkox before in this column before posting the lesson.  Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+Indicates whether the lesson is to be posted as a **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  
+
+
+1.Add a checkbox for each new lesson
+1.Check the box to send as a **card message**.
+
+👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Make sure there is an checkox in this column before posting the lesson.  
+
 
 **4. Lesson Name**
 
-* Lesson name to be posted with lesson.  
-* This is a **required field**.
+Name of lesson to be posted with lesson.  
+
+👉 This is a **required field**.
 
 
 **5. Lesson Description**
 
-* Lesson content to be posted.  
-* This is a **required field**.
-* Can contain additional formatting based upon type of message:  **simple** or **card**.  See advanced formatting section for more.
+Lesson content to be posted.  
+
+👉  This is a **required field**.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See advanced formatting section for more.
 
 
 **6. Lesson Link**
 
-* Link to additional lesson content to be included with the posted lesson.  
-* This is a **optional field**.
-* Link will be added to the end of the message body for **Simple** messages or as a clickable button link at the end of **Card** messages.
+Link to additional lesson content to be included with the posted lesson.  
+
+👉 This is a **optional field**.
+👉 Link will be added to the end of the message body for **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** messages or as a clickable button link at the end of **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages.
 
 
 
 **7. Lesson Image**
 
-* Link to a public accessible image to be included with **Card** messages ONLY. 
-* This is a **optional field**.
+Link to a public accessible image to be included with **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages ONLY. 
+
+👉 This is a **optional field**.
 
 <br>
 
-Posting a **Simple** lesson as shown above will produce this output in a Google Chat room.
+Posting a **[Simple Message](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** lesson as shown above will produce this output in a Google Chat room.
 
 
 ![](img/TSChatWiseStart2.png)
@@ -93,45 +111,6 @@ Posting a **Simple** lesson as shown above will produce this output in a Google 
 ## Step 3: Test It Out
 
 * 🚧
-
----
-
-## Advanced TSChatWise Configuration
-
-<br>
-
-```javascript
-// TSChatWise Configuration
-
-const CONFIG_SHEET = 'Config'; // 🧰 Name of TSChatWise 'configuration' sheet
-
-const LESSON_SHEET = 'Lessons'; // ✏️ Name of TSChatWise 'lessons' sheet
-
-const ROOM_URL_COLUMN = 2;  // 🔗 CONFIG_SHEET column which contains the Chat Room URLs 
-                            // (column numbering starts at 1)
-                            
-const EMAIL_COLUMN = 5; // 📥 CONFIG_SHEET column which contains the 'Notify By Email When Complete' checkboxes 
-                        // (column numbering starts at 1)
-
-const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted lessons on LESSON_SHEET 
-                                        // See this site for more information 
-                                        // https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
-
-
-// TSChatWise Chat Message Configuration
-
-const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
-```
-
-
-|  | NAME | TYPE | DESCRIPTION |
-| :-------: | :----------------- | :----------------- | :----------------- |
-| 🧰 | **`CONFIG_SHEET`** | **General** | Name of **TSChatWise `configuration`** sheet |
-| ✏️ | **`LESSON_SHEET`** | **General** | Name of **TSChatWise `lessons`** sheet |
-| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
-| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
-| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
-| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat **message button text** |
 
 ---
 
