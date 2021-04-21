@@ -29,7 +29,7 @@ Now let's look at how the **TSChatWise** lesson sheet is constructed.
 <br>
 
 
-As show above, each row of the **Lesson** sheet represents a lesson to be posted to a Google Chat Room(s).  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
+As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
