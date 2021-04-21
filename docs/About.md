@@ -54,7 +54,7 @@ Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspa
 
 * **Simple to Use**
   
-* **Allows "Bite" Sized Lessons**
+* **Allows "Bite" Sized Lessons or "Drip" Content**
   
 * **Enables Lessons to be Posted to Chat Rooms on an Interval set by the Google Sheet Owner**
 
