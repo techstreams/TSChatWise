@@ -8,11 +8,10 @@
 
 ---
 
-There are three sheets within the **TSChatWise** template.
+There are two sheets within the **TSChatWise** template.
 
 1. Lessons
 2. Config
-3. Examples
 
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's turn our attention on how to configure the **Lessons** sheet.
 
@@ -30,11 +29,11 @@ Now let's look at how the **TSChatWise** lesson sheet is constructed.
 <br>
 
 
-As show above, there are **seven data columns** representing each lesson to be posted to Google Chat Room(s).
+As show above, each row of the **Lesson** sheet represents a lesson to be posted to a Google Chat Room(s).  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
-A checkbox automatically checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
+A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
 1.Add a checkbox for each new lesson
 
@@ -45,12 +44,18 @@ A checkbox automatically checked by **TSChatWise** when a lesson is posted to an
 
 👉 Uncheck box to schedule/reschedule a lesson post. 
 
+👉 Ensure that there are no extraneous checkboxes in this column or **TSChatWise** will try to post empty lessons.
+
+<br>
+
 
 **2. Posted On**
 
 Date stamp automatically added when a lesson is posted to any Google Chat Room.
 
 👉 Do not modify this field.
+
+<br>
 
 
 **3. Post as Card Message**
@@ -65,12 +70,16 @@ Indicates whether the lesson is to be posted as a **[Simple Messages](https://de
 
 👉 Make sure there is an checkox in this column before posting the lesson.  
 
+<br>
+
 
 **4. Lesson Name**
 
 Name of lesson to be posted with lesson.  
 
 👉 This is a **required field**.
+
+<br>
 
 
 **5. Lesson Description**
@@ -81,6 +90,8 @@ Lesson content to be posted.
 
 👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See advanced formatting section for more.
 
+<br>
+
 
 **6. Lesson Link**
 
@@ -90,7 +101,7 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 Link will be added to the end of the message body for **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** messages or as a clickable button link at the end of **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages.
 
-
+<br>
 
 **7. Lesson Image**
 
