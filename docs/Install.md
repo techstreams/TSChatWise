@@ -77,7 +77,7 @@ To be notified when all lessons have been posted to all chat rooms:
 
 * Check the box to the right of **Notify By Email When Complete**
   * Check the box to the right of **Email Sheet Editors** for all TSChatWise Google Sheet editors & owner to be notified.
-  * Check the box to the right of **Email Sheet Viewers** for all TSChatWise Google Sheet viewers to be notified.
+  * *(Optional)* Check the box to the right of **Email Sheet Viewers** for all TSChatWise Google Sheet viewers to be notified.
 
 <br>
 
