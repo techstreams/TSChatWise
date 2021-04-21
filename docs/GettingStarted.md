@@ -37,6 +37,7 @@ A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted
 
 👉 Add a checkbox for each new lesson
 
+
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
 
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
