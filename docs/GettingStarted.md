@@ -51,7 +51,7 @@ A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted
 
 **2. Posted On**
 
-Date stamp automatically added when a lesson is posted to any Google Chat Room.
+Date stamp ***automatically*** added when a lesson is posted to any Google Chat Room.
 
 👉 Do not modify this field.
 
