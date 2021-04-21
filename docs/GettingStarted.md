@@ -35,7 +35,7 @@ As show above, each row of the **Lesson** sheet represents a lesson to be posted
 
 A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
-1.Add a checkbox for each new lesson
+1. Add a checkbox for each new lesson
 
 
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
@@ -63,8 +63,9 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 Indicates whether the lesson is to be posted as a **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  
 
 
-1.Add a checkbox for each new lesson
-1.Check the box to send as a **card message**.
+1. Add a checkbox for each new lesson
+
+2. Check the box to send as a **card message**.
 
 👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
 
