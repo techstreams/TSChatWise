@@ -108,17 +108,6 @@ TSChatWise provides some advanced configuration options.  The following tables o
 
 <br>
 
-|  | NAME | TYPE | DESCRIPTION |
-| :-------: | :----------------- | :----------------- | :----------------- |
-| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
-| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
-| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
-| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
-| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
-| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
-
-<br>
-
 ```javascript
 // TSChatWise Configuration
 
@@ -141,6 +130,18 @@ const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted less
 
 const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
 ```
+
+<br>
+
+|  | NAME | TYPE | DESCRIPTION |
+| :-------: | :----------------- | :----------------- | :----------------- |
+| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
+| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
+| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
+| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
+| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
+| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
+
 
 <br>
 
