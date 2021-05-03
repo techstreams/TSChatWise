@@ -134,4 +134,20 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 
 ---
 
+## Google Chat Message Types and Formatting Options
+
+**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
+
+1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
+2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+
+### Simple Messages
+
+Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain specialized formatting as shown in the table below.
+
+
+
+
+---
+
 &nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Tips & Tricks](Tips.md) 👉 &nbsp;&nbsp;
