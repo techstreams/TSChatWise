@@ -94,11 +94,11 @@ To be notified when all lessons have been posted to all chat rooms:
 
 ## Important Notes
 
-* Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
+:point_right: Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
 
-* A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
+:point_right: A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
 
-* Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSFormBot does not work as expected.
+:point_right: Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSChatWise does not work as expected.
 
 ---
 
