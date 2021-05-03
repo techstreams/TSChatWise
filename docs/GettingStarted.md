@@ -13,7 +13,7 @@ There are two sheets within the **TSChatWise** template.
 1. Lessons
 2. Config
 
-We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's turn our attention on how to configure the **Lessons** sheet.
+We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
 ## Step 1: Configure Lessons
 
