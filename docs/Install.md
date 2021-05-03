@@ -104,7 +104,7 @@ To be notified when all lessons have been posted to all chat rooms:
 
 ## Advanced TSChatWise Configuration Options
 
-TSChatWise provides some advanced configuration options.  The following tables outlines the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
+TSChatWise provides some advanced configuration options.  The following code and table outline the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
 
 <br>
 
