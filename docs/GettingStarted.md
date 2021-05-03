@@ -159,7 +159,11 @@ For more on simple message alternate links and other formatting options see the 
 
 Following is an example of a simple message from TSChatWise sent to a chat room.
 
+![](img/TSChatWiseStart4.png)
 
+<br>
+
+![](img/TSChatWiseStart5.png)
 
 
 
