@@ -91,7 +91,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See advanced formatting section for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See [advanced formatting section](#google-chat-message-types-and-formatting-options) below for more.
 
 <br>
 
