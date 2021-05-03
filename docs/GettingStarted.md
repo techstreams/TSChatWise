@@ -149,9 +149,10 @@ Simple Messages are messages which appear inline as if typed by a user.  Simple 
 | :----- | :----- | :------ | :----- |
 | Bold | * | `*`Bold`*` | **Bold** |
 | Italic | `_`(underscore) | `_`Italic`_` | _Italic_ |
-| Bold | Short Answer | | |
-| Bold | Short Answer | | |
-| Bold | Short Answer | | |
+| Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
+| Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
+| Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
+| Plain Link | | |
 
 
 
