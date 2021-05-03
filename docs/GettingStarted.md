@@ -152,8 +152,14 @@ Simple Messages are messages which appear inline as if typed by a user.  Simple 
 | Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
 | Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
 | Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
-| Plain Link | | http://example.com/ | [http://example.com/](http://example.com/) |
-| Alternate Link | | <http://example.com/|my link> | [my link](http://example.com/) |
+| Link | | http://example.com/ | [http://example.com/](http://example.com/) |
+
+
+For more on simple message alternate links and other formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+
+Following is an example of a simple message from TSChatWise sent to a chat room.
+
+
 
 
 
