@@ -12,7 +12,7 @@
 
 <br>
 
-TSChatWise is a **[Google Sheets](https://www.google.com/sheets/about/)** and **[Apps Script](https://www.google.com/script/start/)** powered ***teaching and learning tool*** for **[Google Chat](https://gsuite.google.com/products/chat/)**.
+TSChatWise is a **[Google Sheets](https://www.google.com/sheets/about/)** and **[Apps Script](https://www.google.com/script/start/)** powered educational ***[chat bot](https://support.google.com/chat/answer/7655820?hl=en&ref_topic=7649114)*** for **[Google Chat](https://gsuite.google.com/products/chat/)**.
 
 
 👉 *If you’re new to __Google Chat__, see [Getting Started with Google Chat](https://support.google.com/chat/answer/7653601?hl=en&ref_topic=7649316).*
@@ -102,7 +102,6 @@ Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspa
 * Explore Places of Interest
 * Share Health and Fitness Tips
 * Learn to Code
-* Inspire Busy Professionals with Easy to Prepare Meals
 
 <br>
 

@@ -13,7 +13,7 @@
 To install **TSChatWise**:
 
 > * *Login to [Google Drive](https://drive.google.com/).*
-> * *Access the __TSChatWise__ Google Sheets template.*
+> * *Access the __TSChatWise__ Google Sheets __[template](https://docs.google.com/spreadsheets/d/1jO8F-uW8Sf4xDk7v2yULGw8Yk-ZAp4Pc_HvsfdfeBTk/template/preview)__.*
 > * *Click the __Use Template__ button. This will copy the sheet template to Google Drive.*
 
 ---
@@ -94,31 +94,17 @@ To be notified when all lessons have been posted to all chat rooms:
 
 ## Important Notes
 
-* Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
+:point_right: Multiple versions of **TSChatWise** can be used to provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).
 
-* A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
+:point_right: A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
 
-* Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSFormBot does not work as expected.
+:point_right: Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSChatWise does not work as expected.
 
 ---
 
 ## Advanced TSChatWise Configuration Options
 
-TSChatWise provides some advanced configuration options.  The following tables outlines the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
-
-<br>
-
-|  | NAME | TYPE | DESCRIPTION |
-| :-------: | :----------------- | :----------------- | :----------------- |
-| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
-| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
-| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
-| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
-| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
-| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
-
-<br>
-
+TSChatWise provides some advanced configuration options.  The following code and table outline the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
 
 To change any of the advanced configuration options:
 
@@ -154,6 +140,18 @@ const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted less
 
 const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
 ```
+
+<br>
+
+|  | NAME | TYPE | DESCRIPTION |
+| :-------: | :----------------- | :----------------- | :----------------- |
+| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
+| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
+| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
+| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
+| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
+| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
+
 
 <br>
 

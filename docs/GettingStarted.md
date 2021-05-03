@@ -13,7 +13,7 @@ There are two sheets within the **TSChatWise** template.
 1. Lessons
 2. Config
 
-We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's turn our attention on how to configure the **Lessons** sheet.
+We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
 ## Step 1: Configure Lessons
 
@@ -22,7 +22,9 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
 2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
 
-Now let's look at how the **TSChatWise** lesson sheet is constructed.
+> 👉 For more information on message types and formatting see [below](#google-chat-message-types-and-formatting-options).
+
+<br>
 
 ![](img/TSChatWiseStart3.png)
 
@@ -89,7 +91,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See advanced formatting section for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See [advanced formatting section](#google-chat-message-types-and-formatting-options) below for more.
 
 <br>
 
@@ -131,6 +133,64 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 ## Step 3: Test It Out
 
 * 🚧
+
+---
+
+## Google Chat Message Types and Formatting Options
+
+**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
+
+1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
+2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+
+### Simple Messages
+
+Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting as shown in the table below.
+
+| FORMAT | SYMBOL | EXAMPLE | RESULT |
+| :----- | :----- | :------ | :----- |
+| Bold | * | `*`Bold`*` | **Bold** |
+| Italic | `_`(underscore) | `_`Italic`_` | _Italic_ |
+| Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
+| Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
+| Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
+| Link | | http://example.com/ | [http://example.com/](http://example.com/) |
+
+
+For more on simple message alternate links and other formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+
+<br>
+
+Following is an example of a simple message from TSChatWise sent to a Google Chat Room.
+
+![](img/TSChatWiseStart4.png)
+
+<br>
+
+![](img/TSChatWiseStart5.png)
+
+<br>
+
+Following is an example of a simple message with an alternate link from TSChatWise sent to a Google Chat Room.
+
+![](img/TSChatWiseStart6.png)
+
+<br>
+
+![](img/TSChatWiseStart7.png)
+
+<br>
+
+Following is an example of a simple message with code from TSChatWise sent to a Google Chat Room.
+
+![](img/TSChatWiseStart8.png)
+
+<br>
+
+![](img/TSChatWiseStart9.png)
+
+
+
 
 ---
 
