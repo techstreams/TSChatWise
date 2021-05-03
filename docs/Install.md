@@ -106,6 +106,16 @@ To be notified when all lessons have been posted to all chat rooms:
 
 TSChatWise provides some advanced configuration options.  The following code and table outline the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
 
+To change any of the advanced configuration options:
+
+* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+* Find the configuration option(s) shown below in the __Code.gs__ file and make the appropriate change(s).
+* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+
+
+*:point_right: Use __caution__ when making changes to the source code.*
+
+
 <br>
 
 ```javascript
@@ -141,19 +151,6 @@ const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message butto
 | 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
 | 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
 | 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
-
-
-<br>
-
-
-To change any of the advanced configuration options:
-
-* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
-* Find the configuration option(s) shown below in the __Code.gs__ file and make the appropriate change(s).
-* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
-
-
-*:point_right: Use __caution__ when making changes to the source code.*
 
 
 <br>
