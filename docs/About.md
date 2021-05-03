@@ -102,7 +102,6 @@ Any [Google Workspace for Education](https://edu.google.com/) or [Google Workspa
 * Explore Places of Interest
 * Share Health and Fitness Tips
 * Learn to Code
-* Inspire Busy Professionals with Easy to Prepare Meals
 
 <br>
 
