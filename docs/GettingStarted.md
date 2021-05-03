@@ -159,6 +159,8 @@ Simple Messages are messages which appear inline as if typed by a user.  Simple 
 
 For more on simple message alternate links and other formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
 
+<br>
+
 Following is an example of a simple message from TSChatWise sent to a Google Chat Room.
 
 ![](img/TSChatWiseStart4.png)
@@ -166,6 +168,26 @@ Following is an example of a simple message from TSChatWise sent to a Google Cha
 <br>
 
 ![](img/TSChatWiseStart5.png)
+
+<br>
+
+Following is an example of a simple message with an alternate link from TSChatWise sent to a Google Chat Room.
+
+![](img/TSChatWiseStart6.png)
+
+<br>
+
+![](img/TSChatWiseStart7.png)
+
+<br>
+
+Following is an example of a simple message with code from TSChatWise sent to a Google Chat Room.
+
+![](img/TSChatWiseStart8.png)
+
+<br>
+
+![](img/TSChatWiseStart9.png)
 
 
 
