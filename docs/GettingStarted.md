@@ -143,7 +143,15 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 
 ### Simple Messages
 
-Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain specialized formatting as shown in the table below.
+Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting as shown in the table below.
+
+| FORMAT | SYMBOL | EXAMPLE | RESULT |
+| :----- | :----- | :------ | :----- |
+| Bold | * | `*`Bold`*` | **Bold** |
+| Italic | `_`(underscore) | `_`Italic`_` | _Italic_ |
+| Bold | Short Answer | | |
+| Bold | Short Answer | | |
+| Bold | Short Answer | | |
 
 
 
