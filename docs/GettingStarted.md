@@ -24,7 +24,14 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 > 👉 For more information on message types and formatting see [below]().
 
+<br>
 
+![](img/TSChatWiseStart3.png)
+
+<br>
+
+
+As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
