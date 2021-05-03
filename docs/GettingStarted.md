@@ -22,7 +22,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
 2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [below]().
+> 👉 For more information on message types and formatting see [below](#google-chat-message-types-and-formatting-options).
 
 <br>
 
