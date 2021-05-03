@@ -119,19 +119,6 @@ TSChatWise provides some advanced configuration options.  The following tables o
 
 <br>
 
-
-To change any of the advanced configuration options:
-
-* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
-* Find the configuration option(s) shown below in the __Code.gs__ file and make the appropriate change(s).
-* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
-
-
-*:point_right: Use __caution__ when making changes to the source code.*
-
-
-<br>
-
 ```javascript
 // TSChatWise Configuration
 
@@ -154,6 +141,19 @@ const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted less
 
 const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
 ```
+
+<br>
+
+
+To change any of the advanced configuration options:
+
+* Click the **Tools > Script editor** menu from the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+* Find the configuration option(s) shown below in the __Code.gs__ file and make the appropriate change(s).
+* __Save__ the changes and return to the __TSChatWise Google Sheet__ copied to your Google Drive during **[Step 1](#step-1-install-tschatwise)**.
+
+
+*:point_right: Use __caution__ when making changes to the source code.*
+
 
 <br>
 
