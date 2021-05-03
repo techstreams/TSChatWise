@@ -22,14 +22,9 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
 2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
 
-Now let's look at how the **TSChatWise** lesson sheet is constructed.
-
-![](img/TSChatWiseStart3.png)
-
-<br>
+> 👉 For more information on message types and formatting see [below]().
 
 
-As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
