@@ -152,7 +152,8 @@ Simple Messages are messages which appear inline as if typed by a user.  Simple 
 | Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
 | Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
 | Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
-| Plain Link | | |
+| Plain Link | | http://example.com/ | [http://example.com/](http://example.com/) |
+| Alternate Link | | <http://example.com/|my link> | [my link](http://example.com/) |
 
 
 
