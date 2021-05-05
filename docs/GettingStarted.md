@@ -18,6 +18,8 @@ There are two sheets within the **TSChatWise** template.
 
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
+<br>
+
 ## Step 1: Configure Lessons
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
