@@ -13,7 +13,13 @@ There are two sheets within the **TSChatWise** template.
 1. Lessons
 2. Config
 
+
+![](img/TSChatWiseStart10.png)
+
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
+
+<br>
+
 
 ## Step 1: Configure Lessons
 
