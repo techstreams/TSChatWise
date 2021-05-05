@@ -167,8 +167,7 @@ For more on simple message alternate links and other formatting options see the 
 
 <br>
 
-Following is an example of a simple message from TSChatWise sent to a Google Chat Room.
-
+Following is an example of a ***simple message*** sent to a Google Chat Room.
 ![](img/TSChatWiseStart4.png)
 
 <br>
@@ -177,7 +176,7 @@ Following is an example of a simple message from TSChatWise sent to a Google Cha
 
 <br>
 
-Following is an example of a simple message with an alternate link from TSChatWise sent to a Google Chat Room.
+Following is an example of a ***simple message with an alternate link*** sent to a Google Chat Room.
 
 ![](img/TSChatWiseStart6.png)
 
@@ -187,7 +186,7 @@ Following is an example of a simple message with an alternate link from TSChatWi
 
 <br>
 
-Following is an example of a simple message with code from TSChatWise sent to a Google Chat Room.
+Following is an example of a ***simple message with code*** sent to a Google Chat Room.
 
 ![](img/TSChatWiseStart8.png)
 
