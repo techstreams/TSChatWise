@@ -20,6 +20,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 <br>
 
+
 ## Step 1: Configure Lessons
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
