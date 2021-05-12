@@ -17,4 +17,4 @@
 
 ---
 
-&nbsp;&nbsp; 👈 [Getting Started](GettingStarted.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Important Reminders](Reminders.md) 👉 &nbsp;&nbsp;
+&nbsp;&nbsp; 👈 [Getting Started](GettingStarted.md) &nbsp;&nbsp; 
