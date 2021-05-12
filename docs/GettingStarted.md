@@ -28,7 +28,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
 2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [below](#google-chat-message-types-and-formatting-options).
+> 👉 For more information on message types and formatting see [Tips](Tips.md).
 
 <br>
 
@@ -142,61 +142,5 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 
 ---
 
-## Google Chat Message Types and Formatting Options
-
-**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
-
-1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
-2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
-
-### Simple Messages
-
-Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting as shown in the table below.
-
-| FORMAT | SYMBOL | EXAMPLE | RESULT |
-| :----- | :----- | :------ | :----- |
-| Bold | * | `*`Bold`*` | **Bold** |
-| Italic | `_`(underscore) | `_`Italic`_` | _Italic_ |
-| Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
-| Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
-| Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
-| Link | | http://example.com/ | [http://example.com/](http://example.com/) |
-
-
-For more on simple message alternate links and other formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
-
-<br>
-
-Following is an example of a ***simple message*** sent to a Google Chat Room.
-![](img/TSChatWiseStart4.png)
-
-<br>
-
-![](img/TSChatWiseStart5.png)
-
-<br>
-
-Following is an example of a ***simple message with an alternate link*** sent to a Google Chat Room.
-
-![](img/TSChatWiseStart6.png)
-
-<br>
-
-![](img/TSChatWiseStart7.png)
-
-<br>
-
-Following is an example of a ***simple message with code*** sent to a Google Chat Room.
-
-![](img/TSChatWiseStart8.png)
-
-<br>
-
-![](img/TSChatWiseStart9.png)
-
-
-
-
----
 
 &nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Tips & Tricks](Tips.md) 👉 &nbsp;&nbsp;
