@@ -17,19 +17,7 @@
 
 ### Simple Messages
 
-Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting as shown in the table below.
-
-| FORMAT | SYMBOL | EXAMPLE | RESULT |
-| :----- | :----- | :------ | :----- |
-| Bold | * | `*`Bold`*` | **Bold** |
-| Italic | `_`(underscore) | `_`Italic`_` | _Italic_ |
-| Strikethrough | ~ | `~`Strikethrough`~` | ~Strikethrough~ |
-| Monospace | ` | `` ` ``Monospace`` ` ``| `Monospace` |
-| Monospace Block | ``` | `` ``` ``Block`` ``` `` | ```Block``` |
-| Link | | http://example.com/ | [http://example.com/](http://example.com/) |
-
-
-For more on simple message alternate links and other formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting.  For more on simple message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
 
 <br>
 
@@ -60,7 +48,11 @@ Following is an example of a ***simple message with code*** sent to a Google Cha
 
 ![](img/TSChatWiseStart9.png)
 
-* 🚧
+<br>
+
+### Card Messages
+
+Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  Card messages can contain special formatting.  For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
 
 ...
 
