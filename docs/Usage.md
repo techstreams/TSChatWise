@@ -1,4 +1,4 @@
-# TSChatWise Tips & Tricks
+# TSChatWise Usage Tips
 
 ![](../chalkboard.jpg)
 
