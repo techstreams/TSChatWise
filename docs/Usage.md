@@ -12,8 +12,8 @@
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
-2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+1. **Simple Messages** - plain text messages with simple formatting options.
+2. **Card Messages** - more complex user interface card messages.
 
 ### Simple Messages
 
