@@ -134,6 +134,8 @@ Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can
 
 ![](img/TSChatWiseStart11.png)
 
+<br>
+
 To schedule a time-based trigger perform the following steps:
 
 **Open the Google Apps Script Editor**
