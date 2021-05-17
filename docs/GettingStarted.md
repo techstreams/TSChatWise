@@ -25,8 +25,8 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
-2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+1. **Simple Messages** - plain text messages with simple formatting options.
+2. **Card Messages** - more complex user interface card messages.
 
 > 👉 For more information on message types and formatting see [Tips](Tips.md).
 
@@ -68,7 +68,7 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](Tips.md#simple-messages)** or **[Card Messages](Tips.md#simple-messages)**.  
 
 
 👉 Add a checkbox for each new lesson.
@@ -97,7 +97,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See [advanced formatting section](#google-chat-message-types-and-formatting-options) below for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Tips.md#simple-messages)** or **[Card Messages](Tips.md#simple-messages)**.  See [advanced formatting section](#Tips.md#simple-messages) below for more.
 
 <br>
 
