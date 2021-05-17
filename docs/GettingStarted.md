@@ -132,7 +132,23 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 
 Once the lessons have been configured on the **Lessons** tab, TSChatWise can be configured to run by setting up Google Apps Script time based triggers.  To schedule a time based trigger for TSChatWise perform the following steps:
 
-1. 
+**Open the Google Apps Script Editor**
+
+* From the Sheet menu select **Tools > Script editor**
+
+**Create a New Apps Script Time Based Trigger**
+
+* In the Apps Script editor, click the **clock** icon on the left side
+* In the dashboard, click the **+ Add Trigger** button on the bottom right
+* Under **Choose which function to run** be sure to select **postLessons**
+* Under **Select event source** select **Time-driven**
+* Under **Select type of time based trigger** select the desired interval 
+* Set any other desired time based trigger options
+* Click the **Save** button to save the configuration
+
+**TSChatWise** is now configured to run on the timed interval.  Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger.  
+
+To reschedule the lessons, uncheck the desired lesson checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
 ---
 
