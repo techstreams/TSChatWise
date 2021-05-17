@@ -130,7 +130,9 @@ Posting a **[Simple Message](https://developers.google.com/hangouts/chat/referen
 
 ## Step 2: Schedule Lessons
 
-Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can be configured to run by setting up an Apps Script time-based trigger.  To schedule a time-based trigger perform the following steps:
+Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can be configured to run by setting up an Apps Script time-based trigger.  
+
+To schedule a time-based trigger perform the following steps:
 
 **Open the Google Apps Script Editor**
 
