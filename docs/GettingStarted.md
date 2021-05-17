@@ -151,7 +151,7 @@ To schedule a time-based trigger perform the following steps:
 
 **TSChatWise** is now configured to run on the timed interval.  Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger.  
 
-To reschedule the lessons, uncheck the desired lesson checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
+To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
 ---
 
