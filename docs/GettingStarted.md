@@ -68,7 +68,7 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](Tips.md#simple-messages)** or **[Card Messages](Tips.md#simple-messages)**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](Usage.md#simple-messages)** or **[Card Messages](Usage.md#simple-messages)**.  
 
 
 👉 Add a checkbox for each new lesson.
@@ -97,7 +97,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Tips.md#simple-messages)** or **[Card Messages](Tips.md#simple-messages)**.  See [advanced formatting section](#Tips.md#simple-messages) below for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Usage.md#simple-messages)** or **[Card Messages](Usage.md#simple-messages)**.  See [advanced formatting section](#Usage.md#simple-messages) below for more.
 
 <br>
 
@@ -108,19 +108,19 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** messages or as a clickable button link at the end of **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](Usage.md#simple-messages)** messages or as a clickable button link at the end of **[Card Messages](Usage.md#simple-messages)** messages.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](Usage.md#simple-messages)** messages ONLY. 
 
 👉 This is a **optional field**.
 
 <br>
 
-Posting a **[Simple Message](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** lesson as shown above will produce this output in a Google Chat room.
+Posting a **[Simple Message](Usage.md#simple-messages)** lesson as shown above will produce this output in a Google Chat room.
 
 
 ![](img/TSChatWiseStart2.png)
