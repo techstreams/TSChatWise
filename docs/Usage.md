@@ -1,4 +1,4 @@
-# TSChatWise Tips & Tricks
+# TSChatWise Usage Tips
 
 ![](../chalkboard.jpg)
 
@@ -12,8 +12,8 @@
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
-2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+1. **Simple Messages** - plain text messages with simple formatting options.
+2. **Card Messages** - more complex user interface card messages.
 
 ### Simple Messages
 
@@ -54,7 +54,25 @@ Following is an example of a ***simple message with code*** sent to a Google Cha
 
 Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  Card messages can contain special formatting.  For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
 
-...
+Following is an example of a ***card message*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage1.png)
+
+<br>
+
+![](img/TSChatWiseUsage2.png)
+
+<br>
+
+Following is an example of a ***card message with an emoji*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage3.png)
+
+<br>
+
+![](img/TSChatWiseUsage4.png)
+
+<br>
 
 
 ---

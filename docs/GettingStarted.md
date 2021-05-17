@@ -25,10 +25,10 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** - plain text messages with simple formatting options.
-2. **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** - more complex user interface card messages.
+1. **Simple Messages** - plain text messages with simple formatting options.
+2. **Card Messages** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [Tips](Tips.md).
+> 👉 For more information on message types and formatting see [Usage Tips](Usage.md).
 
 <br>
 
@@ -68,7 +68,7 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  
 
 
 👉 Add a checkbox for each new lesson.
@@ -97,7 +97,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** or **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)**.  See [advanced formatting section](#google-chat-message-types-and-formatting-options) below for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  See [Usage Tips](Usage.md#google-chat-message-types-and-formatting-options) for more.
 
 <br>
 
@@ -108,39 +108,56 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** messages or as a clickable button link at the end of **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](https://developers.google.com/hangouts/chat/reference/message-formats/cards)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages ONLY. 
 
 👉 This is a **optional field**.
 
 <br>
 
-Posting a **[Simple Message](https://developers.google.com/hangouts/chat/reference/message-formats/basic)** lesson as shown above will produce this output in a Google Chat room.
+Posting a **[Simple Message](Usage.md#google-chat-message-types-and-formatting-options)** lesson as shown above will produce this output in a Google Chat room.
 
 
 ![](img/TSChatWiseStart2.png)
-
-* 🚧
 
 
 ---
 
 ## Step 2: Schedule Lessons
 
-* 🚧
+Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can be configured to run by setting up an Apps Script time-based trigger. 
+
+![](img/TSChatWiseStart11.png)
+
+<br>
+
+To schedule a time-based trigger perform the following steps:
+
+**Open the Google Apps Script Editor**
+
+* Open the **TSChatWise** template *(copied in the [Installation](Install.md) step)*
+* From the Sheet menu select **Tools > Script editor**
+
+**Create a New Apps Script Time Based Trigger**
+
+* In the Apps Script editor, click the **clock** icon on the left side
+* In the dashboard, click the **+ Add Trigger** button on the bottom right
+* Under **Choose which function to run** be sure to select **postLessons**
+* Under **Select event source** select **Time-driven**
+* Under **Select type of time based trigger** select the desired interval 
+* Set any other desired time based trigger options
+* Click the **Save** button to save the configuration
+
+**TSChatWise** is now configured to run on the timed interval.  Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger.  
+
+To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
 ---
 
-## Step 3: Test It Out
 
-* 🚧
-
----
-
-
-&nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Tips & Tricks](Tips.md) 👉 &nbsp;&nbsp;
+&nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Usage Tips](Usage.md) 👉 &nbsp;&nbsp;
