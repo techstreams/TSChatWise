@@ -140,7 +140,7 @@ To schedule a time-based trigger perform the following steps:
 
 **Open the Google Apps Script Editor**
 
-* Open the **TSChatWise** template *(copied in the [Installation](Installation.md) step)*
+* Open the **TSChatWise** template *(copied in the [Installation](Install.md) step)*
 * From the Sheet menu select **Tools > Script editor**
 
 **Create a New Apps Script Time Based Trigger**
