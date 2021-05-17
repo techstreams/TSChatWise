@@ -28,7 +28,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **Simple Messages** - plain text messages with simple formatting options.
 2. **Card Messages** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [Usage](Usage.md).
+> 👉 For more information on message types and formatting see [Usage Tips](Usage.md).
 
 <br>
 
