@@ -130,7 +130,9 @@ Posting a **[Simple Message](Usage.md#google-chat-message-types-and-formatting-o
 
 ## Step 2: Schedule Lessons
 
-Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can be configured to run by setting up an Apps Script time-based trigger.  
+Once the lessons have been configured on the **Lessons** tab, **TSChatWise** can be configured to run by setting up an Apps Script time-based trigger. 
+
+![](img/TSChatWiseStart11.png)
 
 To schedule a time-based trigger perform the following steps:
 
