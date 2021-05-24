@@ -33,7 +33,9 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 <br>
 
 
-As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
+As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  
+
+Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
