@@ -41,10 +41,7 @@ Each row contains **seven data fields** representing each lesson to be posted.  
 
 A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
-👉 Add a checkbox for each new lesson
-
-
-👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Add a checkbox for each new lesson. *Use the spreadsheet __Insert > Checkbox__ menu to add a new checkbox.*
 
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
 
