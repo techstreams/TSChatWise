@@ -23,7 +23,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 1. **Simple Messages** - plain text messages with simple formatting options.
 2. **Card Messages** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [Usage Tips](Usage.md).
+> 👉 For more information on message types and formatting see [Google Chat Message Types and Formatting](#google-chat-message-types-and-formatting-options) below.
 
 <br>
 
@@ -63,7 +63,7 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#google-chat-message-types-and-formatting-options))**.  
 
 
 👉 Add a checkbox for each new lesson.
@@ -92,7 +92,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  See [Usage Tips](Usage.md#google-chat-message-types-and-formatting-options) for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#google-chat-message-types-and-formatting-options))**.
 
 <br>
 
@@ -103,19 +103,19 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](#google-chat-message-types-and-formatting-options)** messages.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](#google-chat-message-types-and-formatting-options)** messages ONLY. 
 
 👉 This is a **optional field**.
 
 <br>
 
-Posting a **[Simple Message](Usage.md#google-chat-message-types-and-formatting-options)** lesson as shown above will produce this output in a Google Chat room.
+Posting a **[Simple Message](#google-chat-message-types-and-formatting-options)** lesson as shown above will produce this output in a Google Chat room.
 
 
 ![](img/TSChatWiseStart2.png)
@@ -153,6 +153,8 @@ To schedule a time-based trigger perform the following steps:
 To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
 ---
+
+<br>
 
 ## Google Chat Message Types and Formatting Options
 
