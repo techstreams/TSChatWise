@@ -54,7 +54,7 @@ A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted
 
 **2. Posted On**
 
-Date stamp ***automatically*** added when a lesson is posted to any Google Chat Room.
+Date stamp ***automatically*** added by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
 👉 Do not modify this field.
 
@@ -66,11 +66,9 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 Indicates whether the lesson is to be posted as a **[Simple Messages](#simple-messages)** or **[Card Messages](#card-messages)**.  
 
 
-👉 Add a checkbox for each new lesson.
+👉 Add a checkbox for each new lesson.  *Use the spreadsheet __Insert > Checkbox__ menu to add a new checkbox.*
 
-👉 Check the box to send as a **card message**.
-
-👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Check the box to send as a **[card message](#card-messages)**.
 
 👉 Make sure there is an checkox in this column before posting the lesson.  
 
@@ -150,7 +148,7 @@ To schedule a time-based trigger perform the following steps:
 
 **TSChatWise** is now configured to run on the timed interval.  
 
-Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger and send an email to the **TSChatWsie** Google Sheet owner and collaborators *(if configured)*.
+Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger and send an email to the **TSChatWsie** Google Sheet collaborators configured on the **TSChatWise Config** sheet.
 
 To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
