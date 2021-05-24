@@ -149,7 +149,9 @@ To schedule a time-based trigger perform the following steps:
 * Set any other desired time based trigger options
 * Click the **Save** button to save the configuration
 
-**TSChatWise** is now configured to run on the timed interval.  Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger.  
+**TSChatWise** is now configured to run on the timed interval.  
+
+Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger and send an email to the **TSChatWsie** Google Sheet owner and collaborators *(if configured)*.
 
 To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
