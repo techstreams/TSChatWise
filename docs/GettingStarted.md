@@ -20,8 +20,8 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **Simple Messages** - plain text messages with simple formatting options.
-2. **Card Messages** - more complex user interface card messages.
+1. **[Simple Messages](#google-chat-message-types-and-formatting-options)** - plain text messages with simple formatting options.
+2. **[Card Messages](#google-chat-message-types-and-formatting-options)** - more complex user interface card messages.
 
 > 👉 For more information on message types and formatting see [Google Chat Message Types and Formatting](#google-chat-message-types-and-formatting-options) below.
 
