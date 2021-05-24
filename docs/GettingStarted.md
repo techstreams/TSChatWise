@@ -154,5 +154,73 @@ To reschedule the lessons, uncheck checkboxes in the first column of the **Lesso
 
 ---
 
+## Google Chat Message Types and Formatting Options
+
+**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
+
+1. **Simple Messages** - plain text messages with simple formatting options.
+2. **Card Messages** - more complex user interface card messages.
+
+### Simple Messages
+
+Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting.  For more on simple message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+
+<br>
+
+Following is an example of a ***simple message*** sent to a Google Chat Room.
+![](img/TSChatWiseStart4.png)
+
+<br>
+
+![](img/TSChatWiseStart5.png)
+
+<br>
+
+Following is an example of a ***simple message with an alternate link*** sent to a Google Chat Room.
+
+![](img/TSChatWiseStart6.png)
+
+<br>
+
+![](img/TSChatWiseStart7.png)
+
+<br>
+
+Following is an example of a ***simple message with code*** sent to a Google Chat Room.
+
+![](img/TSChatWiseStart8.png)
+
+<br>
+
+![](img/TSChatWiseStart9.png)
+
+<br>
+
+### Card Messages
+
+Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  Card messages can contain special formatting.  For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
+
+Following is an example of a ***card message*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage1.png)
+
+<br>
+
+![](img/TSChatWiseUsage2.png)
+
+<br>
+
+Following is an example of a ***card message with an emoji*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage3.png)
+
+<br>
+
+![](img/TSChatWiseUsage4.png)
+
+<br>
+
+---
+
 
 &nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Usage Tips](Usage.md) 👉 &nbsp;&nbsp;
