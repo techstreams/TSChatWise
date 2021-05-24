@@ -166,7 +166,11 @@ To reschedule the lessons, uncheck checkboxes in the first column of the **Lesso
 
 ### Simple Messages
 
-Simple Messages are messages which appear inline as if typed by a user.  Simple messages can contain symbols used to create special formatting.  For more on simple message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+Simple Messages are messages which appear inline as if typed by a user.  
+
+👉 Simple messages can contain symbols used to create special formatting.  
+
+👉 For more on simple message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
 
 <br>
 
@@ -201,7 +205,11 @@ Following is an example of a ***simple message with code*** sent to a Google Cha
 
 ### Card Messages
 
-Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  Card messages can contain special formatting.  For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
+Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  
+
+👉 Card messages can contain special formatting.  
+
+👉 For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
 
 Following is an example of a ***card message*** sent to a Google Chat Room.
 
