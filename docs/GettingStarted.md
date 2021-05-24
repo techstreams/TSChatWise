@@ -22,7 +22,7 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
 1. **[Simple Messages](#google-chat-message-types-and-formatting-options)** - plain text messages with simple formatting options.
-2. **[Card Messages](#google-chat-message-types-and-formatting-options)** - more complex user interface card messages.
+2. **[Card Messages](#card-messages)** - more complex user interface card messages.
 
 > 👉 For more information on message types and formatting see [Google Chat Message Types and Formatting](#google-chat-message-types-and-formatting-options) below.
 
@@ -64,7 +64,7 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#google-chat-message-types-and-formatting-options))**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#card-messages)**.  
 
 
 👉 Add a checkbox for each new lesson.
@@ -93,7 +93,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#google-chat-message-types-and-formatting-options))**.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](#google-chat-message-types-and-formatting-options)** or **[Card Messages](#card-messages)**.
 
 <br>
 
@@ -104,13 +104,13 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](#google-chat-message-types-and-formatting-options)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](#card-messages)** messages.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](#google-chat-message-types-and-formatting-options)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](#card-messages)** messages ONLY. 
 
 👉 This is a **optional field**.
 
@@ -162,7 +162,7 @@ To reschedule the lessons, uncheck checkboxes in the first column of the **Lesso
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
 1. **Simple Messages** - plain text messages with simple formatting options.
-2. **Card Messages** - more complex user interface card messages.
+2. **[Card Messages](#card-messages)** - more complex user interface card messages.
 
 ### Simple Messages
 
