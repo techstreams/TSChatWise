@@ -98,13 +98,13 @@ To be notified when all lessons have been posted to all chat rooms:
 
 :point_right: A single version of **TSChatWise** can provide notifications to multiple [Google Chat Rooms](https://gsuite.google.com/products/chat/).
 
-:point_right: Check the [Apps Script Dashboard](https://script.google.com) for execution errors if TSChatWise does not work as expected.
+:point_right: Check the [Apps Script Dashboard](https://script.google.com) for execution errors if **TSChatWise** does not work as expected.
 
 ---
 
 ## Advanced TSChatWise Configuration Options
 
-TSChatWise provides some advanced configuration options.  The following code and table outline the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
+**TSChatWise** provides some advanced configuration options.  The following code and table outline the configuration options which can be changed by the TSChatWise Google Sheet owner to provide a more customized experience.
 
 To change any of the advanced configuration options:
 

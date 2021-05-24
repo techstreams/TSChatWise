@@ -8,15 +8,11 @@
 
 ---
 
-There are two sheets within the **TSChatWise** template.
+We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
-1. Lessons
-2. Config
-
+<br>
 
 ![](img/TSChatWiseStart10.png)
-
-We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
 <br>
 
@@ -25,10 +21,10 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 
 **TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
 
-1. **Simple Messages** - plain text messages with simple formatting options.
-2. **Card Messages** - more complex user interface card messages.
+1. **[Simple Messages](#simple-messages)** - plain text messages with simple formatting options.
+2. **[Card Messages](#card-messages)** - more complex user interface card messages.
 
-> 👉 For more information on message types and formatting see [Usage Tips](Usage.md).
+> 👉 For more information on message types and formatting see [Google Chat Message Types and Formatting](#google-chat-message-types-and-formatting-options) below.
 
 <br>
 
@@ -37,16 +33,15 @@ We've already seen how to use the **Config** sheet in the [Installation Guide](I
 <br>
 
 
-As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
+As show above, each row of the **Lesson** sheet represents a lesson to be posted to one or more Google Chat Rooms.  
+
+Each row contains **seven data fields** representing each lesson to be posted.  These fields are outlined below.
 
 **1. Posted**
 
 A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
-👉 Add a checkbox for each new lesson
-
-
-👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Add a checkbox for each new lesson. *Use the spreadsheet __Insert > Checkbox__ menu to add a new checkbox.*
 
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
 
@@ -59,7 +54,7 @@ A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted
 
 **2. Posted On**
 
-Date stamp ***automatically*** added when a lesson is posted to any Google Chat Room.
+Date stamp ***automatically*** added by **TSChatWise** when a lesson is posted to any Google Chat Room.
 
 👉 Do not modify this field.
 
@@ -68,14 +63,12 @@ Date stamp ***automatically*** added when a lesson is posted to any Google Chat 
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  
+Indicates whether the lesson is to be posted as a **[Simple Messages](#simple-messages)** or **[Card Messages](#card-messages)**.  
 
 
-👉 Add a checkbox for each new lesson.
+👉 Add a checkbox for each new lesson.  *Use the spreadsheet __Insert > Checkbox__ menu to add a new checkbox.*
 
-👉 Check the box to send as a **card message**.
-
-👉 Use the spreadsheet **Insert > Checkbox** menu to add a new checkbox.
+👉 Check the box to send as a **[card message](#card-messages)**.
 
 👉 Make sure there is an checkox in this column before posting the lesson.  
 
@@ -97,7 +90,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** or **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)**.  See [Usage Tips](Usage.md#google-chat-message-types-and-formatting-options) for more.
+👉  Can contain additional formatting based upon type of message:  **[Simple Messages](#simple-messages)** or **[Card Messages](#card-messages)**.
 
 <br>
 
@@ -108,19 +101,19 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages or as a clickable button link at the end of **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](#simple-messages)** messages or as a clickable button link at the end of **[Card Messages](#card-messages)** messages.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](Usage.md#google-chat-message-types-and-formatting-options)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](#card-messages)** messages ONLY. 
 
 👉 This is a **optional field**.
 
 <br>
 
-Posting a **[Simple Message](Usage.md#google-chat-message-types-and-formatting-options)** lesson as shown above will produce this output in a Google Chat room.
+Posting a **[Simple Message](#simple-messages)** lesson as shown above will produce this output in a Google Chat room.
 
 
 ![](img/TSChatWiseStart2.png)
@@ -153,11 +146,91 @@ To schedule a time-based trigger perform the following steps:
 * Set any other desired time based trigger options
 * Click the **Save** button to save the configuration
 
-**TSChatWise** is now configured to run on the timed interval.  Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger.  
+**TSChatWise** is now configured to run on the timed interval.  
+
+Once **TSChatWise** has posted all the lessons to the configured Chat Rooms it will automatically unschedule the time-based trigger and send an email to the **TSChatWsie** Google Sheet collaborators configured on the **TSChatWise Config** sheet.
 
 To reschedule the lessons, uncheck checkboxes in the first column of the **Lessons** sheet and reconfigure a new Apps Script trigger following the steps above.
 
 ---
 
+<br>
 
-&nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp; |  &nbsp;&nbsp; [Usage Tips](Usage.md) 👉 &nbsp;&nbsp;
+## Google Chat Message Types and Formatting Options
+
+**TSChatWise** can post **two types** of lesson messages to Google Chat Rooms:
+
+1. **[Simple Messages](#simple-messages)** - plain text messages with simple formatting options.
+2. **[Card Messages](#card-messages)** - more complex user interface card messages.
+
+### Simple Messages
+
+Simple Messages are messages which appear inline as if typed by a user.  
+
+👉 Simple messages can contain symbols used to create special formatting.  
+
+👉 For more on simple message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/basic).
+
+<br>
+
+Following is an example of a ***simple message*** sent to a Google Chat Room.
+![](img/TSChatWiseStart4.png)
+
+<br>
+
+![](img/TSChatWiseStart5.png)
+
+<br>
+
+Following is an example of a ***simple message with an alternate link*** sent to a Google Chat Room.
+
+![](img/TSChatWiseStart6.png)
+
+<br>
+
+![](img/TSChatWiseStart7.png)
+
+<br>
+
+Following is an example of a ***simple message with code*** sent to a Google Chat Room.
+
+![](img/TSChatWiseStart8.png)
+
+<br>
+
+![](img/TSChatWiseStart9.png)
+
+<br>
+
+### Card Messages
+
+Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  
+
+👉 Card messages can contain special formatting.  
+
+👉 For more on card message formatting options see the [documentation](https://developers.google.com/hangouts/chat/reference/message-formats/cards#card_formatting).
+
+Following is an example of a ***card message*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage1.png)
+
+<br>
+
+![](img/TSChatWiseUsage2.png)
+
+<br>
+
+Following is an example of a ***card message with an emoji*** sent to a Google Chat Room.
+
+![](img/TSChatWiseUsage3.png)
+
+<br>
+
+![](img/TSChatWiseUsage4.png)
+
+<br>
+
+---
+
+
+&nbsp;&nbsp; 👈 [Installation](Install.md) &nbsp;&nbsp;
