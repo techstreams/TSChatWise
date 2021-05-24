@@ -29,7 +29,7 @@
 * [Blog Post](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
 * [About](docs/About.md)
 * [Install](docs/Install.md)
-* [Getting Started](docs/Getting_Started.md)
+* [Getting Started](docs/GettingStarted.md)
 
 <br>
  
