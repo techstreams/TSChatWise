@@ -26,60 +26,12 @@
 
 ## Getting Started
 
-* [Overview](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
-* 🚧
+* [Blog Post](https://medium.com/@techstreams/tschatwise-a-google-chat-education-tool-a9b96b78f780)
+* [About](docs/About.md)
+* [Install](docs/Install.md)
+* [Getting Started](docs/Getting_Started.md)
 
 <br>
-
----
-
-## TSChatWise Configuration Options
-
-<br>
-
-```javascript
-// TSChatWise Configuration
-
-const CONFIG_SHEET = 'Config'; // 🧰 Name of TSChatWise 'configuration' sheet
-
-const LESSON_SHEET = 'Lessons'; // ✏️ Name of TSChatWise 'lessons' sheet
-
-const ROOM_URL_COLUMN = 2;  // 🔗 CONFIG_SHEET column which contains the Chat Room URLs 
-                            // (column numbering starts at 1)
-                            
-const EMAIL_COLUMN = 5; // 📥 CONFIG_SHEET column which contains the 'Notify By Email When Complete' checkboxes 
-                        // (column numbering starts at 1)
-
-const DATE_FORMAT = "M/d/yyyy k:mm:ss"; // 📆 Timestamp format for posted lessons on LESSON_SHEET 
-                                        // See this site for more information 
-                                        // https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
-
-
-// TSChatWise Chat Message Configuration
-
-const LESSON_BUTTON_TEXT = 'CLICK FOR LESSON'; // 🔳 Lesson chat message button text
-```
-
-<br>
-
-|  | NAME | TYPE | DESCRIPTION |
-| :-------: | :----------------- | :----------------- | :----------------- |
-| 🧰 | **`CONFIG_SHEET`** | **General** | Name of TSChatWise **`configuration`** sheet |
-| ✏️ | **`LESSON_SHEET`** | **General** | Name of TSChatWise **`lessons`** sheet |
-| 🔗 | **`ROOM_URL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **Chat Room URL(s)** *(column numbering starts at 1)* |
-| 📥 | **`EMAIL_COLUMN`** | **General** | **`CONFIG_SHEET` column** which contains the **`'Notify By Email When Complete'` checkboxes** *(column numbering starts at 1)* |
-| 📆 | **`DATE_FORMAT`** | **General** | **Timestamp format** *(for posted lessons on `LESSON_SHEET`)*.  See more information on supported [timestamp formats](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html). |
-| 🔳 | **`LESSON_BUTTON_TEXT`** | **Chat Message** | Lesson chat message **button text** |
-
-<br>
-
----
-
-## Credits
-
-* [Google Sheets](https://www.google.com/sheets/about/)
-* [Apps Script](https://developers.google.com/apps-script/overview)
-* [Google Chat](https://support.google.com/chat/answer/7653601)
  
 ---
 
