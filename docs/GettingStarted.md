@@ -178,7 +178,7 @@ Following is an example of a ***simple message*** sent to a Google Chat Room.
 
 <br>
 
-![](img/TSChatWiseStart5.png)
+![](img/TSChatWiseStart5a.png)
 
 <br>
 
