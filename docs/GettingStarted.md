@@ -10,6 +10,7 @@
 
 We've already seen how to use the **Config** sheet in the [Installation Guide](Install.md).  Now let's learn how to configure the **Lessons** sheet.
 
+<br>
 
 ![](img/TSChatWiseStart10.png)
 
