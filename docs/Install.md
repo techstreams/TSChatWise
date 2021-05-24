@@ -13,7 +13,7 @@
 To install **TSChatWise**:
 
 > * *Login to [Google Drive](https://drive.google.com/).*
-> * *Access the __TSChatWise__ Google Sheets __[template](https://docs.google.com/spreadsheets/d/1jO8F-uW8Sf4xDk7v2yULGw8Yk-ZAp4Pc_HvsfdfeBTk/template/preview)__.*
+> * *Access the __TSChatWise__ Google Sheets __[template](https://techstreams.page.link/TSChatWise)__.*
 > * *Click the __Use Template__ button. This will copy the sheet template to Google Drive.*
 
 ---
