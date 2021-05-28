@@ -22,7 +22,7 @@ To install **TSChatWise**:
 
 ## Step 2: Create Chat Room(s)
 
-Follow the steps outlined in the [Google Chat Room - Create a room](https://support.google.com/chat/answer/7653861?hl=en&ref_topic=7649113) documentation to setup a Google Chat room. 
+Follow the steps outlined in the [Google Chat Room - Create a room](https://support.google.com/chat/answer/7653861?hl=en&ref_topic=7649113) documentation to set up a Google Chat room. 
 
 👉 *TSChatWise can post the same lesson to __multiple__ Google Chat rooms.*
 
@@ -43,7 +43,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 
 **Enter a Webhook Name**
 
-* Enter a webhook name **TSChatWise**
+* Enter a webhook name *i.e. __TSChatWise__*
 * *(Optional) Enter an Avatar URL*
 * Click **Save**
 
