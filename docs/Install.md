@@ -47,7 +47,7 @@ Follow the steps outlined in the [Google Chat Room - Create a room](https://supp
 * *(Optional) Enter an Avatar URL*
 * Click **Save**
 
-*:point_right: Multiple chat bots can provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).  Be sure to use descriptive webhook names to disguish multiple bots.*
+*:point_right: Multiple chat bots can provide notifications to a single [Google Chat Room](https://gsuite.google.com/products/chat/).  Be sure to use descriptive webhook names to distinguish multiple bots.*
 
 <br>
 
