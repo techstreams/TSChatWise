@@ -147,7 +147,7 @@ function getConfig(ss) {
     ss.getEditors().forEach(editor => emails.push(editor.getEmail()));
   } 
   // If email notifications enabled and notify Sheet viewers enabled then collect Sheet viewer email addresses
-  if (notifications[0] && notifications[1]) {
+  if (notifications[0] && notifications[2]) {
     ss.getViewers().forEach(viewer => emails.push(viewer.getEmail()));
   }  
   // Flatten Chat rooms array and remove duplicate entries in rooms and emails
