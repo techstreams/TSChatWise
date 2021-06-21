@@ -45,7 +45,7 @@ A checkbox ***automatically*** checked by **TSChatWise** when a lesson is posted
 
 👉 Make sure the checkbox is __unchecked__ before posting the lesson. 
 
-👉 Uncheck box to schedule/reschedule a lesson post. 
+👉 Uncheck box to reuse a lesson post. 
 
 👉 Ensure that there are no extraneous checkboxes in this column or **TSChatWise** will try to post empty lessons.
 
