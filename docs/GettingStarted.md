@@ -63,7 +63,7 @@ Date stamp ***automatically*** added by **TSChatWise** when a lesson is posted t
 
 **3. Post as Card Message**
 
-Indicates whether the lesson is to be posted as a **[Simple Messages](#simple-messages)** or **[Card Messages](#card-messages)**.  
+Indicates whether the lesson is to be posted as a **[Simple Message](#simple-messages)** or **[Card Message](#card-messages)**.  
 
 
 👉 Add a checkbox for each new lesson.  *Use the spreadsheet __Insert > Checkbox__ menu to add a new checkbox.*
