@@ -90,7 +90,7 @@ Lesson content to be posted.
 
 👉  This is a **required field**.
 
-👉  Can contain additional formatting based upon type of message:  **[Simple Messages](#simple-messages)** or **[Card Messages](#card-messages)**.
+👉  Can contain additional formatting based upon type of message:  **[Simple Message](#simple-messages)** or **[Card Message](#card-messages)**.
 
 <br>
 
@@ -101,13 +101,13 @@ Link to additional lesson content to be included with the posted lesson.
 
 👉 This is a **optional field**.
 
-👉 Link will be added to the end of the message body for **[Simple Messages](#simple-messages)** messages or as a clickable button link at the end of **[Card Messages](#card-messages)** messages.
+👉 Link will be added to the end of the message body for **[Simple Messages](#simple-messages)** or as a clickable button link at the end of **[Card Messages](#card-messages)**.
 
 <br>
 
 **7. Lesson Image**
 
-Link to a public accessible image to be included with **[Card Messages](#card-messages)** messages ONLY. 
+Link to a public accessible image to be included with **[Card Messages](#card-messages)** ONLY. 
 
 👉 This is a **optional field**.
 
