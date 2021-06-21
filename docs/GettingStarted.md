@@ -204,7 +204,7 @@ Following is an example of a ***simple message with code*** sent to a Google Cha
 
 ### Card Messages
 
-Card Messages are Google Chat message which contain a more complex user interface in the form of cards.  
+Card Messages are Google Chat messages which contain a more complex user interface in the form of cards.  
 
 👉 Card messages can contain special formatting.  
 
