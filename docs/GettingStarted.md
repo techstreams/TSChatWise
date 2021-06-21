@@ -70,7 +70,7 @@ Indicates whether the lesson is to be posted as a **[Simple Messages](#simple-me
 
 👉 Check the box to send as a **[card message](#card-messages)**.
 
-👉 Make sure there is an checkox in this column before posting the lesson.  
+👉 Make sure there is an checkbox in this column before posting the lesson.  
 
 <br>
 
